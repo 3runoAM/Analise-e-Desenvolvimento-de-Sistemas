@@ -1,0 +1,12 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#modal {
+  border: blue solid 1px;
+  background-color: gray;
+  height: 200px;
+  width: 200px;
+  border-radius: 6px;
+}
