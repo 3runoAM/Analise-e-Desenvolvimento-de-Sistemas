@@ -71,7 +71,7 @@ Através de comentários, no arquivo `meuCodigoJavascript.js`, explique a difere
 
 # 9. Trabalhando com conversão entre string e number
 
-No arquivo `meuCodigoJavascript.js`, modifique o código de modo a alterar **SOMENTE** as conversões de `Number` por `String` e vice-versa. As modificações devem ser realizadas de modo que o resultado que deve aparecer no `console.log` seja: `133`.
+No arquivo `meuCodigoJavascript.js`, modifique o código de modo a alterar **SOMENTE** as conversões de `Number` por `String` e vice-versa. As modificações devem ser realizadas de modo que o resultado que deve aparecer no `console.log` seja: `16`.
 
 ---
 

@@ -9,12 +9,12 @@ let salarioMinimo = 1302
 * const é uma declaração de variável com valor constante, que não pode ser alterado ao longo do código*/
 
 let numberVariant = 5;
-numberVariant = 6; // Podemos aletrar o valor normalmente
+numberVariant = 6; // Podemos alterar o valor normalmente
 
 const numberConst = 6;
 numberConst = 7; // Lança um erro
 
 
 /*Uma variável não declarada é uma variável que é utilizada sem ter sido explicitamente definida ou inicializada antes
-de seu uso,  variáveis desse tipo são de escopo global e seu tipo é inferido tornando o código dificil de manter e
+de seu uso, variáveis desse tipo são de escopo global e seu tipo é inferido tornando o código dificil de manter e
 sujeito a erros*/

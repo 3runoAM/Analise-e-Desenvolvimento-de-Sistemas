@@ -1,11 +1,11 @@
+let purchaseValue = Number(prompt("Valor da compra: "))
+let paymentForm = Number(prompt("Forma de pagamento:\n1- á vista\n2- á prazo"))
+let paymentMethod = Number(prompt("Método de pagamento:\n1- Débito\n2- Crédito\n3- Dinheiro"));
+
 const eightPercent = 0.08;
 const fivePercent = 0.05;
 const fourPercent = 0.04;
 const tenPercent = 0.1;
-
-let purchaseValue = Number(prompt("Valor da compra: "))
-let paymentForm = Number(prompt("Forma de pagamento:\n1- á vista\n2- á prazo"))
-let paymentMethod = Number(prompt("Método de pagamento:\n1- Débito\n2- Crédito\n3- Dinheiro"));
 
 console.log(calculateFinalPrice(purchaseValue, paymentForm, paymentMethod));
 
@@ -28,7 +28,7 @@ function calculateFinalPrice(purchaseValue, paymentForm, paymentMethod) {
     if(paymentForm === 1){ // à vista
         if (paymentMethod === 3){ // 10% no dinheiro
             return `Pagamento de: R$${(purchaseValue - (purchaseValue * tenPercent)).toFixed(2)}`;
-        } else if (paymentMethod === 2){ // 5% à no crédito
+        } else if (paymentMethod === 2){ // 5% no crédito
             return `Pagamento de: R$${(purchaseValue - (purchaseValue * fivePercent)).toFixed(2)}`;
         } else { // 8% á vista, no débito
             return `Pagamento de: R$${(purchaseValue - (purchaseValue * eightPercent)).toFixed(2)}`;

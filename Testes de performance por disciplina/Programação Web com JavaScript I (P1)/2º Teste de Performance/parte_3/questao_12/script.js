@@ -2,7 +2,6 @@ let sideA = Number(prompt("Tamanho do lado A: "));
 let sideB = Number(prompt("Tamanho do lado B: "));
 let sideC = Number(prompt("Tamanho do lado C: "));
 
-
 console.log(defineTriangle(sideA, sideB, sideC));
 
 function isTypeCorrect(sideA, sideB, sideC) {
@@ -23,7 +22,7 @@ function defineTriangle(sideA, sideB, sideC) {
 
     if(sideA !== sideB && sideB !== sideC && sideA !== sideC) {
         return "Triângulo Escaleno";
-    } else if(sideA === sideB && sideB === sideC) {
+    } else if(sideA === sideB && sideB === sideC && sideA === sideC) {
         return "Triângulo Equilátero";
     } else {
         return "Triângulo Isósceles";

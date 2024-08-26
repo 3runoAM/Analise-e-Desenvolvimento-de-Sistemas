@@ -12,11 +12,11 @@ function calcularSQRT(numA, numB) {
         alert("Apenas números devem ser inseridos.");
         return;
     }
-    numA = Math.floor(numA)
-    numB = Math.floor(numB)
+    numA = Math.floor(numA);
+    numB = Math.floor(numB);
 
-    let potenciaA = numA ** 2;
-    let potenciaB = numB ** 3;
+    let potenciaA = Math.pow(numA, 2);
+    let potenciaB = Math.pow(numB, 3);
 
-    alert(Math.sqrt(potenciaA + potenciaB).toFixed(2));
+    alert(Math.sqrt(potenciaA + potenciaB));
 }

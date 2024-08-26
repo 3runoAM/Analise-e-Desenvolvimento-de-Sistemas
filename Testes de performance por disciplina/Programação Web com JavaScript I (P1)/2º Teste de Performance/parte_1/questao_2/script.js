@@ -22,5 +22,5 @@ function calculateDivision(numA, numB){
     }
     numA = Math.floor(numA);
     numB = Math.floor(numB);
-    alert(`O resultado da divisão é: ${numA / numB}\nO resto da divisão: ${numA % numB} `);
+    alert(`O resultado da divisão é: ${numA / numB}\nO resto da divisão: ${numA % numB}`);
 }

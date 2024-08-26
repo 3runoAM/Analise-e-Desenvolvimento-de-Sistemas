@@ -15,13 +15,13 @@ b = undefined;
 // b = 1;
 // b = 'null';
 
-// c = '2000' + '20';
-c = '20' + 20;
+c = /*'2000' + '20';
+c = '20' +*/ 20;
 // c = null;
 // c = undefined;
 
 // d = null;
-// d = undefined;
+d = undefined;
 // d = 0;
 // d = 'undefined';
 
@@ -41,4 +41,4 @@ console.log("a=" + verificacaoA);
 console.log("b=" + verificacaoB);
 console.log("c=" + verificacaoC);
 console.log("d=" + verificacaoD);
-console.log("e=" + verificacaoE);
+console.log("e=" + verificacaoE)

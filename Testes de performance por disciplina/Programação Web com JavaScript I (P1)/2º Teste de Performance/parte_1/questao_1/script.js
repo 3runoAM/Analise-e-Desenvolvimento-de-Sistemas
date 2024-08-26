@@ -22,7 +22,7 @@ function calculateChange(productValue, paidValue) {
     }
 
     let change = paidValue - productValue;
-    console.log(`O troco: ${change.toFixed(2)}`);
-    console.log(`O troco arredondado para cima: ${Math.ceil(change)}`);
-    console.log(`O troco arredondado para baixo: ${Math.floor(change)}`);
+    console.log(`O troco: R$${change.toFixed(2)}`);
+    console.log(`O troco arredondado para cima: R$${Math.ceil(change)}`);
+    console.log(`O troco arredondado para baixo: R$${Math.floor(change)}`);
 }

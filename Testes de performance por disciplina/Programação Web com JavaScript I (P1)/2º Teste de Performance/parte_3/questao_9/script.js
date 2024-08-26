@@ -1,7 +1,7 @@
 const a = 1;
-const b = String(a) + 2;
-const c = Number(b) - 1;
-const d = Number(c) * 1;
-const e = Number(a) + String(b) * d;
+const b = Number(a) + 2;
+const c = String(b) - 1;
+const d = String(c) * 1;
+const e = String(a) + String(b) * d;
 
 console.log(e);

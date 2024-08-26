@@ -7,7 +7,7 @@ const userWins = "Você ganhou!"
 const userLoses = "Você perdeu!"
 const tie = "Empate!"
 
-console.log(`${rockPaperScissors(userChoice, randomChoice)}\nVocê escolheu ${choices[userChoice - 1]} e o programa escolheu ${choices[randomChoice - 1]}`)
+alert(`${rockPaperScissors(userChoice, randomChoice)}\nVocê escolheu ${choices[userChoice - 1]} e o programa escolheu ${choices[randomChoice - 1]}`);
 
 function rockPaperScissors(userChoice, randomChoice) {
     if(isNaN(userChoice) || userChoice <= 0 || userChoice > 3) {
@@ -20,23 +20,26 @@ function rockPaperScissors(userChoice, randomChoice) {
                     return userWins;
                 case 2: // Papel
                     return userLoses;
+                default:
+                    return tie;
             }
-            return tie;
         case 2: // Papel
             switch (randomChoice) {
                 case 1: // Pedra
                     return userWins;
                 case 3: // Tesoura
                     return userLoses;
+                default:
+                    return tie;
             }
-            return tie;
         case 3: // Tesoura
             switch (randomChoice) {
                 case 2: // Papel
                     return userWins;
                 case 1: // Pedra
                     return userLoses;
+                default:
+                    return tie;
             }
-            return tie;
     }
 }

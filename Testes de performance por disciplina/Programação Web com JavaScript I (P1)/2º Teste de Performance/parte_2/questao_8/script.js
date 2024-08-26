@@ -1,4 +1,4 @@
-/*Undefined representa um valor que não foi definido, já null representa a uma ausência de valor ou um valor nulo.*/
+/*Undefined representa um valor que não foi definido, já null representa uma ausência de valor ou um valor nulo.*/
 
 let varA; // Variável declarada, mas o valor não foi definido
 let varB = null; // Variável de valor nulo
