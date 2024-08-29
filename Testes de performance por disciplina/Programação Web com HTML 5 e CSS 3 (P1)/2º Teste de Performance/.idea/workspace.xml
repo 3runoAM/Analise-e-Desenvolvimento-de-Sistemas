@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questao_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questao_2/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_2/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_3/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_3/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/2º Teste de Performance/questao_16&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/2º Teste de Performance/questao_16",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_16" />
@@ -84,7 +87,7 @@
       <updated>1724888598642</updated>
       <workItem from="1724888599425" duration="1157000" />
       <workItem from="1724890563882" duration="282000" />
-      <workItem from="1724891204035" duration="2109000" />
+      <workItem from="1724891204035" duration="3550000" />
     </task>
     <servers />
   </component>

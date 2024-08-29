@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+p[title="parágrafo1"]{
+    background-color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+}
+
+#p2 {
+    color: red;
+    font-family: 'SUSE', sans-serif;
+    font-style: italic;
+}
+
+.p3 {
+    border: 1px dashed darkblue;
+    font-family: 'Noto Sans Hanunoo', sans-serif;
+    font-weight: bold;
+}
+
+p:last-child {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Nerko One', sans-serif;
+}
