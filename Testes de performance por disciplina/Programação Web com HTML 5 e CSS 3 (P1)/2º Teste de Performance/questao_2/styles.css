@@ -1,0 +1,16 @@
+p[title="parágrafo"]{
+    background-color: lightcoral;
+}
+
+#p2 {
+    color: red;
+}
+
+.p3 {
+    border: 1px dashed darkblue;
+}
+
+p:last-child {
+    text-align: center;
+    font-weight: bold;
+}
