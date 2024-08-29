@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/imagens/burger_king_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questao_7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_7/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_7/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_8/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <workItem from="1724888599425" duration="1157000" />
       <workItem from="1724890563882" duration="282000" />
       <workItem from="1724891204035" duration="5875000" />
-      <workItem from="1724935368459" duration="2299000" />
+      <workItem from="1724935368459" duration="2934000" />
     </task>
     <servers />
   </component>

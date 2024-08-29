@@ -1,0 +1,36 @@
+div {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F5EBDC;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+iframe{
+    width: 20rem;
+    height: 15rem;
+}
