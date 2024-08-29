@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Matemasie';
-    src: url('fonts/Matemasie-Regular.ttf') format('truetype')
+    src: url('fonts/Matemasie-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'New Amsterdam';
+    font-family: 'NewAmsterdam';
     src: url('fonts/NewAmsterdam-Regular.ttf') format('truetype');
 }
 
@@ -13,14 +13,14 @@
     src: url('fonts/Sevillana-Regular.ttf') format('truetype');
 }
 
-p:first-child{
-    font-family: Matemasie, sans-serif;
+p:nth-child(2){
+    font-family: 'Matemasie', sans-serif;
 }
 
 #p2{
-    font-family: New Amsterdam, sans-serif;
+    font-family: 'NewAmsterdam', sans-serif;
 }
 
 .p3{
-    font-family: Sevilliana, sans-serif;
+    font-family: 'Sevilliana', sans-serif;
 }
