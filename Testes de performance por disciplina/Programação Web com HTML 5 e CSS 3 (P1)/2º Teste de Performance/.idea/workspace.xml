@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/questao_4/fonts/Matemasie-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questao_4/fonts/NewAmsterdam-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questao_4/fonts/Sevillana-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_2/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_3/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_4/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_4/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,7 @@
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_4\fonts" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens" />
     </key>
   </component>
@@ -87,7 +89,7 @@
       <updated>1724888598642</updated>
       <workItem from="1724888599425" duration="1157000" />
       <workItem from="1724890563882" duration="282000" />
-      <workItem from="1724891204035" duration="3550000" />
+      <workItem from="1724891204035" duration="4594000" />
     </task>
     <servers />
   </component>
