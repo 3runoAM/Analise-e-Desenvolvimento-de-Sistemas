@@ -1,6 +1,5 @@
 div{
-    width: 100vh;
-    height: 100vh;
+    padding: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +8,16 @@ div{
 ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
     gap: 1rem;
     list-style: none;
+    width: 25rem;
+    height: 25rem;
+    background-color: #B0C4DEFF;
+    border-radius: 15px;
 }
 
 li > a {
