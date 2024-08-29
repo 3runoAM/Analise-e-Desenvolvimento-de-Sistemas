@@ -5,65 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2º Teste de Performance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_1/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_1/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_10/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_10/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_10/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_12/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_12/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_12/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_13/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_13/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_13/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_14/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_14/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_14/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_15/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_15/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_15/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_16/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_16/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_16/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_5/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_5/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_5/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_6/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_6/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_7/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_7/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_7/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_8/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_8/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_8/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_9/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_9/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_9/styles.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_1/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +85,7 @@
       <updated>1724888598642</updated>
       <workItem from="1724888599425" duration="1157000" />
       <workItem from="1724890563882" duration="282000" />
+      <workItem from="1724891204035" duration="1097000" />
     </task>
     <servers />
   </component>

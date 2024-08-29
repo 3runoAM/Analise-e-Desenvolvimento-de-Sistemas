@@ -1,0 +1,29 @@
+header{
+    background-color: aliceblue;
+    height: 25rem;
+}
+
+nav{
+    background-color: lightcoral;
+    height: 25rem;
+}
+
+section{
+    background-color: wheat;
+    height: 25rem;
+}
+
+main {
+    background-color: aquamarine;
+    height: 25rem;
+}
+
+article{
+    background-color: aqua;
+    height: 25rem;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 25rem;
+}
