@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/imagens/card_posters/adao_negro_poster_card.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imagens/card_posters/avatar_poster_card.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imagens/card_posters/pantera_negra_poster_card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/imagens/insta-user-example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/imagens/logos/instagram_name_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/svg/heart-svg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/burger_king_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/burger_king_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplos/exemplo_questao_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/design/exemplo_questao_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/globo_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/globo_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/infnet_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/infnet_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/instagram_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/instagram_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/linkedIn_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/linkedIn_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/youtube_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/logos/youtube_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questao_10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_10/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questao_10/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_10/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_7/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_8/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +71,11 @@
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\card_posters" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\logos" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\svg" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\card_posters" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets" />
-      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\exemplos" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -111,7 +97,7 @@
       <workItem from="1724890563882" duration="282000" />
       <workItem from="1724891204035" duration="5875000" />
       <workItem from="1724935368459" duration="6925000" />
-      <workItem from="1724945885127" duration="5780000" />
+      <workItem from="1724945885127" duration="13858000" />
     </task>
     <servers />
   </component>
