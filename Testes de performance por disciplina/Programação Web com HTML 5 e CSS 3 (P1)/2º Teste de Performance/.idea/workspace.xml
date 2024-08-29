@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/2º Teste de Performance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/exemplo_questao_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_1/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_10/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_10/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_13/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_13/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_13/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_14/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_14/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_15/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_15/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_15/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_16/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_16/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_16/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_2/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_3/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_3/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_4/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_4/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_5/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_5/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_6/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_6/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_7/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_7/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_9/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_9/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_9/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lJC46uFp9lBtCoJs1F58a7WxTe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/2º Teste de Performance/questao_16&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_16" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_15" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_14" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_13" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_12" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="" />
+      <created>1724888598642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724888598642</updated>
+      <workItem from="1724888599425" duration="1157000" />
+      <workItem from="1724890563882" duration="282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
