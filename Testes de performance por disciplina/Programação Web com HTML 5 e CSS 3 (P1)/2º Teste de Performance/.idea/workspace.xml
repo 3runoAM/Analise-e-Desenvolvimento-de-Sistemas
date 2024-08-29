@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/pdf/ressurreicao.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_13/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_13/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_13/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_14/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_14/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_14/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_15/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +65,11 @@
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\pdf" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\logos" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\svg" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\card_posters" />
-      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -93,7 +91,7 @@
       <workItem from="1724890563882" duration="282000" />
       <workItem from="1724891204035" duration="5875000" />
       <workItem from="1724935368459" duration="6925000" />
-      <workItem from="1724945885127" duration="18842000" />
+      <workItem from="1724945885127" duration="19451000" />
     </task>
     <servers />
   </component>
