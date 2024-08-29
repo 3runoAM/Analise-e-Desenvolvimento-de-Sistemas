@@ -1,0 +1,24 @@
+p {
+    color: #00008BFF;
+    font-weight: 900;
+}
+
+.paragrafo {
+    background-color: #D3D3D3FF;
+}
+
+#p{
+    background-color: #c55d5d;
+}
+
+p[title="paragrafo"]{
+    background-color: #FF0000FF;
+}
+
+body p {
+    font-size: 18px;
+}
+
+body > h1 {
+    font-style: italic;
+}

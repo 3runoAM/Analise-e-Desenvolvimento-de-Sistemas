@@ -9,6 +9,12 @@ body {
     background-color: #FAEBD7FF;
 }
 
+#back-to-main-index {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 #content-container {
     width: 992px;
     display: flex;
