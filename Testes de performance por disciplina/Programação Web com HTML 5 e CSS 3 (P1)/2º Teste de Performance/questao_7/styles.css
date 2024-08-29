@@ -1,0 +1,22 @@
+div {
+    width: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F5EBDC;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
