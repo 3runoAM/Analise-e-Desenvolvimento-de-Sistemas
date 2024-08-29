@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imagens/insta-user-example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/imagens/logos/instagram_name_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/svg/heart-svg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_10/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_10/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_10/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_10/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_12/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_12/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,7 @@
       <workItem from="1724890563882" duration="282000" />
       <workItem from="1724891204035" duration="5875000" />
       <workItem from="1724935368459" duration="6925000" />
-      <workItem from="1724945885127" duration="13858000" />
+      <workItem from="1724945885127" duration="17207000" />
     </task>
     <servers />
   </component>
