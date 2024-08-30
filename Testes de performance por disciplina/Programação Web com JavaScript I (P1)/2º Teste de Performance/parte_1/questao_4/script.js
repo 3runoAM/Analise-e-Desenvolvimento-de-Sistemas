@@ -11,5 +11,7 @@ function pickRandomBetweenNumber(min, max) {
     if(isTypeCorrect(min, max)){
         return "Apenas números devem ser inseridos";
     }
+    min = Math.floor(min);
+    max = Math.floor(max);
     return Math.round(Math.random() * (max - min) + min);
 }

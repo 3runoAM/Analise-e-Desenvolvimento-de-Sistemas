@@ -1,13 +1,13 @@
 p[title="parágrafo1"]{
-    background-color: lightcoral;
+    background-color: #F08080FF;
 }
 
 #p2 {
-    color: red;
+    color: #FF0000FF;
 }
 
 .p3 {
-    border: 1px dashed darkblue;
+    border: 1px dashed #00008BFF;
 }
 
 p:last-child {

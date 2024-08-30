@@ -4,19 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 p[title="parágrafo1"]{
-    background-color: lightcoral;
+    background-color: #F08080FF;
     font-family: 'Roboto', sans-serif;
     font-size: 1.75rem;
 }
 
 #p2 {
-    color: red;
+    color: #FF0000FF;
     font-family: 'SUSE', sans-serif;
     font-style: italic;
 }
 
 .p3 {
-    border: 1px dashed darkblue;
+    border: 1px dashed #00008BFF;
     font-family: 'Noto Sans Hanunoo', sans-serif;
     font-weight: bold;
 }

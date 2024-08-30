@@ -1,26 +1,29 @@
 @font-face {
     font-family: 'Matemasie';
-    src: url('fonts/Matemasie-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Matemasie-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'NewAmsterdam';
-    src: url('fonts/NewAmsterdam-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/NewAmsterdam-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Sevilliana';
-    src: url('fonts/Sevillana-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Sevillana-Regular.ttf') format('truetype');
 }
 
 p:nth-child(2){
     font-family: 'Matemasie', sans-serif;
+    font-size: 2rem;
 }
 
 #p2{
     font-family: 'NewAmsterdam', sans-serif;
+    font-size: 2rem;
 }
 
 .p3{
     font-family: 'Sevilliana', sans-serif;
+    font-size: 2rem;
 }

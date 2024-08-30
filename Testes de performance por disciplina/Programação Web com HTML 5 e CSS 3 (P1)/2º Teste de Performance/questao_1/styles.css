@@ -1,29 +1,29 @@
 header{
-    background-color: aliceblue;
+    background-color: #F0F8FFFF;
     height: 25rem;
 }
 
 nav{
-    background-color: lightcoral;
+    background-color: #F08080FF;
     height: 25rem;
 }
 
 section{
-    background-color: wheat;
+    background-color: #F5DEB3FF;
     height: 25rem;
 }
 
 main {
-    background-color: aquamarine;
+    background-color: #7FFFD4FF;
     height: 25rem;
 }
 
 article{
-    background-color: aqua;
+    background-color: #00FFFFFF;
     height: 25rem;
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: #8A2BE2FF;
     height: 25rem;
 }
