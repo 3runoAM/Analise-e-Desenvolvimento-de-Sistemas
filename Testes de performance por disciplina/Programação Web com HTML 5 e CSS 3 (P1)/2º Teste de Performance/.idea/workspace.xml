@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_1/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_1/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_2/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_2/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_3/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_3/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/fonts/Matemasie-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Matemasie-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/fonts/NewAmsterdam-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/NewAmsterdam-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/fonts/Sevillana-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/Sevillana-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_4/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_4/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com JavaScript I (P1)/2º Teste de Performance",
+    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,8 +66,8 @@
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\questao_12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens" />
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\pdf" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\imagens\logos" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\2º Teste de Performance\assets\svg" />
@@ -100,6 +96,8 @@
       <workItem from="1724977638016" duration="59000" />
       <workItem from="1724977708324" duration="8169000" />
       <workItem from="1725061900758" duration="17000" />
+      <workItem from="1725135604401" duration="3243000" />
+      <workItem from="1725318750048" duration="18000" />
     </task>
     <servers />
   </component>
