@@ -98,6 +98,7 @@ Um time de e-sports tem duas opções para mascote, o RoboRat e o SuperKeyboard.
 - Informe qual será o novo mascote do time.
 
 ## [16. Grupo - Receita para café](questao_16/script.js)
-Crie uma aplicação que apresente para o usuário a receita para fazer café. No arquivo `script.js`, siga as etapas abaixo:
-- Pergunte ao usuário qual método de preparo ele deseja (coador, prensa francesa ou cafeteira italiana).
-- Mostre as etapas correspondentes ao método escolhido.
+Crie uma aplicação que apresente para o usuário, um passo a passo para fazer um café. No arquivo script.js, siga as etapas abaixo:
+- Utilize o switch, para resolver o exercício.
+- Permita que o usuário escolha o passo, que deseja receber as instruções. Por exemplo: Supondo que haja 10 passos para o processo, que ele possa escolher ver apenas do passo informado em diante.
+- Considere que o café deverá ainda ser torrado e moído pela máquina de café.
