@@ -1,3 +1,7 @@
 let yearOfChoice = Number(prompt("Escolha um ano com quatro dígitos: "))
 
-yearOfChoice % 4 === 0 ? alert(`${yearOfChoice} é bissexto!`) : alert(`${yearOfChoice} não é bissexto!`)
+if ((yearOfChoice % 4 === 0 && yearOfChoice % 100 !== 0) || yearOfChoice % 400 === 0) {
+    alert("O ano é bissexto");
+} else {
+    alert("O ano não é bissexto");
+}

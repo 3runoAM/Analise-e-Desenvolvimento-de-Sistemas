@@ -1,7 +1,7 @@
 let firstNum = 1;
 let secondNum = -1;
-console.log("a= " + firstNum);
-console.log("b= " + secondNum);
+console.log("a= " + --firstNum);
+console.log("b= " + ++secondNum);
 
 let total = firstNum + secondNum--;
 console.log(total);

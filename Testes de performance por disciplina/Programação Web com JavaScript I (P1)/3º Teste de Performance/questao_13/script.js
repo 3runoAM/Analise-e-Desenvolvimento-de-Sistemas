@@ -18,15 +18,21 @@ function calculateIMC(weight, height) {
 }
 
 function classifyIMC(imc) {
-    if (imc <= 24.99) {
-        return 'Peso normal';
+    if (imc < 16) {
+        return 'Baixo peso (grau I)';
+    } else if (imc >= 16 && imc < 16.9) {
+        return 'Baixo peso (grau II)';
+    } else if (imc >= 17 && imc < 18.49) {
+        return 'Baixo peso (grau III)';
+    } else if (imc >= 18.5 && imc < 24.99) {
+        return 'Peso adequado';
     } else if (imc >= 25 && imc < 29.99) {
-        return 'Pre-sobrepeso';
+        return 'Sobrepeso';
     } else if (imc >= 30 && imc < 34.9) {
-        return 'Obesidade grau 1';
+        return 'Obesidade (grau I)';
     } else if (imc >= 35 && imc < 39.9) {
-        return 'Obesidade grau 2';
+        return 'Obesidade (grau II)';
     } else {
-        return 'Obesidade grau 3';
+        return 'Obesidade (grau III)';
     }
 }

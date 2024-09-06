@@ -79,7 +79,8 @@ IMC = peso / (altura * altura)
 
 No arquivo `script.js`, siga as etapas abaixo:
 - Crie uma aplicação que solicite ao usuário a altura e o peso.
-- A aplicação deve informar o IMC do usuário e em qual classificação o usuário se encontra, seguindo a imagem que está no [Replit](https://replit.com/@Infnet-1501/TP-313-GRUPO-Calculo-de-IMC#instructions.md).
+- A aplicação deve informar o IMC do usuário e em qual classificação o usuário se encontra, seguindo esta imagem:
+  ![img](assets/imagens/questao13.jpg).
 
 ## [14. Grupo - Ordenação numérica](questao_14/script.js)
 No arquivo `script.js`, siga as etapas abaixo:
