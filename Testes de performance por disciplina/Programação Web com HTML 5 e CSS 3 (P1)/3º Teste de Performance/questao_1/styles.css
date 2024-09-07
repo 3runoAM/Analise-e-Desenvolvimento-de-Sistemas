@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+#content-container{
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+p {
+    font: 900 2.3rem 'Vazirmatn', sans-serif;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+#gallery {
+    gap: 1rem;
+}
+
+img {
+    width: 27rem;
+    height: 20rem;
+}
