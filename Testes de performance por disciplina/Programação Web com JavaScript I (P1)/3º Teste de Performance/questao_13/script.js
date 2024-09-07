@@ -1,5 +1,5 @@
-const height = Number(prompt('Digite a altura: '));
-const weight = Number(prompt('Digite o peso: '));
+const height = Number(prompt('Digite a altura (m): '));
+const weight = Number(prompt('Digite o peso (kg): '));
 
 alert(imc(height, weight));
 
@@ -14,7 +14,7 @@ function imc(height, weight) {
 }
 
 function calculateIMC(weight, height) {
-  return weight / Math.pow(height, 2);
+  return weight / (height * height);
 }
 
 function classifyIMC(imc) {
