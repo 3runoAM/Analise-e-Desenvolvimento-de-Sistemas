@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+}
+
+th {
+    text-align: left;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: underline;
+    height: 25px;
+}
+
+td {
+    height: 25px;
+    font-weight: 500;
+}
+
+tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+tr:nth-child(odd) {
+    background-color: #fbfbfb;
+}
+
+
+th:nth-child(3), td:nth-child(3) {
+    width: 45%;
+}
