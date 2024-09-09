@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --red-cinema: #cf2e2e;
+}
+
+
+* {
+    margin: 0;
+}
+
+#content-container{
+    height: 100vh;
+}
+
+#card-content{
+    border-radius: 0 0 5px 5px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #dedede;
+    background-color: #232028;
+}
+
+
+#card-content{
+    position: relative;
+    width: 28rem;
+    overflow: hidden;
+}
+
+.bi-list-nested{
+    width: 45px;
+    height: 45px;
+
+    position: absolute;
+    right: 25px;
+    top: 10px;
+
+}
+
+#image-container {
+    width: 28rem;
+    height: 30rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
+    border-radius: 5px 5px 0 0;
+}
+
+main {
+    gap: 1.5rem;
+}
+
+#info-actions-container{
+    width: 28rem;
+    box-shadow: 0 -1px 42px 50px #1e1b26;
+    background-color: #1e1b26;
+    z-index: 0;
+}
+
+#info-actions-container > * {
+    margin: 0 15px;
+}
+
+#movie-info > * {
+    margin: 0;
+}
+
+#movie-info > p {
+    font-weight: 600;
+}
+
+#movie-summary{
+    gap: 0.6rem;
+}
+
+#movie-summary > p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+#movie-summary > p:nth-child(3) {
+    font: 200 0.9rem 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+p:nth-child(2){
+    color: #8f8e8e;
+    text-align: justify;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+h2 {
+     font-weight: 500;
+     font-size: 1rem;
+     margin: 0;
+ }
+
+#likes-count {
+    font-weight: 500;
+    width: 21%;
+}
+
+.bi-emoji-smile{
+    width: 15px;
+    height: 15px;
+}
+
+#actions{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+button{
+    border-radius: 6px;
+    padding: 7px 10px;
+    gap: 2px;
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid var(--red-cinema);
+    align-self: flex-start;
+}
+
+#actions-icons{
+    gap:1.5rem;
+}
+
+#actions-icons > * {
+    width: 46px;
+    height: 28px;
+}
+
+/*ESTILOS REUTILIZÁVEIS*/
+
+.flex-row {
+     display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.red-color {
+    color: var(--red-cinema);
+}
+
+.pointer {
+    cursor: pointer;
+}

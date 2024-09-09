@@ -17,11 +17,13 @@ th {
     color: #ffffff;
     text-decoration: underline;
     height: 25px;
+    padding-left: .5rem;
 }
 
 td {
     height: 25px;
     font-weight: 500;
+    padding-left: .5rem;
 }
 
 tr:nth-child(even) {
