@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d5520-f1e5-4d00-af03-9d862e5220bb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagens/insta-picture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questao_11/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/questao_11/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3º Teste de Performance/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3º Teste de Performance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3º Teste de Performance/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -98,6 +98,8 @@
       <workItem from="1725061900758" duration="17000" />
       <workItem from="1725135604401" duration="3243000" />
       <workItem from="1725318750048" duration="18000" />
+      <workItem from="1725916024167" duration="752000" />
+      <workItem from="1725922449077" duration="33000" />
     </task>
     <servers />
   </component>

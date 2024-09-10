@@ -33,24 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance/questao_13",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\3º Teste de Performance\questao_13" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\3º Teste de Performance\assets\audio" />
       <recent name="D:\Workspace\Análise e Desenvolvimento de Sistemas\Testes de performance por disciplina\Programação Web com HTML 5 e CSS 3 (P1)\3º Teste de Performance\assets\imagens" />
@@ -88,7 +92,8 @@
       <workItem from="1725676550855" duration="6448000" />
       <workItem from="1725683399910" duration="4777000" />
       <workItem from="1725750070518" duration="17444000" />
-      <workItem from="1725893818378" duration="19232000" />
+      <workItem from="1725893818378" duration="20667000" />
+      <workItem from="1725922483942" duration="6290000" />
     </task>
     <servers />
   </component>

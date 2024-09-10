@@ -1,0 +1,16 @@
+#container {
+    width: 992px;
+}
+
+.flex-column {
+    display: flex;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: none;
+}
