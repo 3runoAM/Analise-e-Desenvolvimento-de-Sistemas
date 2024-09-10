@@ -4,13 +4,12 @@
     --coffe-brown: #532c23;
 }
 
-body{
-    background-color: #000;
-}
-
 #container {
     width: 992px;
     font-family: 'Roboto', sans-serif;
+}
+
+header, main {
     background-color: #f7f7f7;
 }
 
@@ -91,6 +90,12 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* footer */
+footer {
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 12px;
+}
 /*Estilos reutilizáveis*/
 .flex-row{
     display: flex;
