@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root {
+    --raisin-black: #1B222C;
+    --rich-black: #12151C;
+    --rosewood: #721219;
+    --fire-engine-red: #D10F15;
+    --anti-flash-white: #ECECEC;
+}
+
+body {
+    background-color: var(--rich-black);
+    color: var(--anti-flash-white);
+}
+
+/* HEADER */
+header {
+    background-color: var(--raisin-black);
+}
+
+#icon {
+    font: normal 3rem "Jersey 10", sans-serif;
+    color: var(--fire-engine-red);
+}

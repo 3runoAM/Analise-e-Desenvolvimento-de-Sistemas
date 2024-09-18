@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14637c58-57bd-4557-b483-e4c6ae82dca2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/exemplo-de-saida.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="14637c58-57bd-4557-b483-e4c6ae82dca2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2m09mDQlYvEvVA8nyoeuxocGYuF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +22,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Assesments/Programação Web com JavaScript I (P1)",
+    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726202782959</updated>
       <workItem from="1726202784019" duration="275000" />
+      <workItem from="1726452772351" duration="23000" />
     </task>
     <servers />
   </component>
