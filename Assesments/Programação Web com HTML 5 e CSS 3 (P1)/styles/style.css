@@ -7,9 +7,6 @@
     --rosewood: #721219;
     --fire-engine-red: #D10F15;
     --anti-flash-white: #ECECEC;
-
-    --lower-round-border: 0 20px;
-    --upper-round-border: 20px 0;
 }
 
 * {
@@ -29,6 +26,7 @@
 header {
     height: 5rem;
     gap: 60%;
+    border-radius: 0 0 16px 16px;
 }
 
 #icon:hover {
@@ -55,7 +53,7 @@ a:hover {
 
 /*--MAIN > About Me Section---*/
 main {
-    gap: 100px;
+    gap: 400px;
 }
 
 #about-me{
@@ -91,6 +89,57 @@ main {
     width: 56rem;
     text-align: center;
     font-size: 1.5rem;
+}
+
+/* MAIN > Habilities Section*/
+#habilities{
+    width: 70%;
+    height: 55rem;
+    gap: 4rem;
+    border-radius: 16px;
+}
+
+.tech-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tech-type-title {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.tech-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+svg {
+    fill: var(--rosewood);
+}
+
+.tech-icon-container{
+    width: 7rem;
+}
+
+.tech-name {
+    font-size: 1.2rem;
+}
+
+
+
+/* FOOTER */
+#page-footer {
+    border-radius: 16px 16px 0 0;
 }
 
 /* Estilos reutilizáveis -- Visual */
