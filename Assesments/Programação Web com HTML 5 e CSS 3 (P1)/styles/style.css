@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
     --raisin-black: #1B222C;
@@ -6,19 +7,122 @@
     --rosewood: #721219;
     --fire-engine-red: #D10F15;
     --anti-flash-white: #ECECEC;
+
+    --lower-round-border: 0 20px;
+    --upper-round-border: 20px 0;
 }
 
-body {
+* {
+    margin: 0;
+}
+
+#content-container {
+    width: 100%;
+    gap: 100px;
     background-color: var(--rich-black);
+    color: var(--anti-flash-white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*--HEADER + NAV--*/
+header {
+    height: 5rem;
+    gap: 60%;
+}
+
+#icon:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.3rem;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
     color: var(--anti-flash-white);
 }
 
-/* HEADER */
-header {
+a:hover {
+    color: var(--fire-engine-red);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+/*--MAIN > About Me Section---*/
+main {
+    gap: 100px;
+}
+
+#about-me{
+    width: 60%;
+    height: 35rem;
+    justify-content: space-between;
+}
+
+#photo-gradient-container {
+    width: 22rem;
+    height: 22rem;
+}
+
+#gradient {
+    width: 22rem;
+    height: 22rem;
+    background: radial-gradient(50% 50% at 50% 50%, var(--rosewood) 0%, var(--rich-black) 100%);
+}
+
+#photo {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#name-title {
+    bottom: 2rem;
+    z-index: 2;
+}
+
+#description {
+    width: 56rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Estilos reutilizáveis -- Visual */
+.background-highlight {
     background-color: var(--raisin-black);
 }
 
-#icon {
-    font: normal 3rem "Jersey 10", sans-serif;
+.jersey-red {
+    font: normal 4rem "Jersey 10", sans-serif;
     color: var(--fire-engine-red);
+}
+
+
+/* Estilos reutilizáveis -- Estrutural */
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
 }
