@@ -8,16 +8,20 @@ fetch('https://api.github.com/users/3runoAM/repos')
                 let fragment = document.createDocumentFragment();
 
                 const article = document.createElement('article');
-
+                article.classList.add('background-highlight', 'flex-column');
+                
                 // Header
                 const header = document.createElement('header');
-
+                header.classList.add('flex-column');
+                
                 const h3Header = document.createElement('h3');
                 h3Header.innerText = repo.name;
+                h3Header.classList.add('limited-text');
 
                 const pHeader = document.createElement('p');
                 pHeader.innerText = repo.description;
-
+                pHeader.classList.add('limited-text');
+                
                 header.appendChild(h3Header);
                 header.appendChild(pHeader);
                 article.appendChild(header);
@@ -34,6 +38,7 @@ fetch('https://api.github.com/users/3runoAM/repos')
                 const repoLink = document.createElement('a');
                 repoLink.href = repo.html_url;
                 repoLink.innerText = 'Acessar Repositório';
+                repoLink.classList.add('underline');
 
                 footer.appendChild(repoLink);
                 article.appendChild(footer);

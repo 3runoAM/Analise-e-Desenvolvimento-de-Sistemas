@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+#to-top-button {
+    position: absolute;
+}
+
 /*--HEADER + NAV--*/
 header {
     height: 5rem;
@@ -97,6 +101,8 @@ main {
     height: 55rem;
     gap: 4rem;
     border-radius: 16px;
+
+    box-shadow: 0 0 0.8rem var(--rosewood);
 }
 
 .tech-grid {
@@ -127,6 +133,10 @@ svg {
     fill: var(--rosewood);
 }
 
+g {
+    fill: var(--rosewood);
+}
+
 .tech-icon-container{
     width: 7rem;
 }
@@ -135,11 +145,65 @@ svg {
     font-size: 1.2rem;
 }
 
+/* MAIN > PROJECTS */
+#projects{
+    height: 50rem;
+    gap: 2.5rem;
+}
 
+#projects > p {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+#repos-container {
+    width: 100rem;
+    height: 16rem;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+
+article {
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 0.5rem var(--rosewood);
+}
+
+article:first-child {
+    margin-left: 178rem;
+}
+
+article > a {
+    text-decoration: underline;
+}
+
+article > header {
+    width: 25rem;
+    text-overflow: ellipsis;
+    gap: 0.5rem;
+}
+
+.limited-text {
+    width: 23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 /* FOOTER */
 #page-footer {
+    height: 7rem;
+    gap: 1rem;
     border-radius: 16px 16px 0 0;
+}
+
+#social-grid {
+    gap: 3rem;
+}
+
+.social-icon {
+    width: 2.5rem;
 }
 
 /* Estilos reutilizáveis -- Visual */
@@ -152,6 +216,9 @@ svg {
     color: var(--fire-engine-red);
 }
 
+.underline {
+    text-decoration: underline;
+}
 
 /* Estilos reutilizáveis -- Estrutural */
 .flex-row {
