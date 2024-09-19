@@ -230,6 +230,10 @@ article > header {
     gap: 0.5rem;
 }
 
+article footer {
+    margin-top: 0.5rem;
+}
+
 .limited-text {
     width: 23rem;
     white-space: nowrap;
