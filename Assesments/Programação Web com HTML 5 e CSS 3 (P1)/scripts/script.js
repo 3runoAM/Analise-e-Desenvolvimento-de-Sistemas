@@ -26,22 +26,29 @@ fetch('https://api.github.com/users/3runoAM/repos')
                 header.appendChild(pHeader);
                 article.appendChild(header);
 
+                // div
+                const div = document.createElement('div');
+                
                 // p
                 const p = document.createElement('p');
                 p.innerText = `Linguagem Principal: ${repo.language}`;
 
-                article.appendChild(p)
+               div.appendChild(p);
 
                 // footer
                 const footer = document.createElement('footer');
-
+               
                 const repoLink = document.createElement('a');
+                
                 repoLink.href = repo.html_url;
                 repoLink.innerText = 'Acessar Repositório';
                 repoLink.classList.add('underline');
-
+                repoLink.target = "_blank";
+                
                 footer.appendChild(repoLink);
-                article.appendChild(footer);
+                div.appendChild(footer);
+                
+                article.appendChild(div);
 
                 fragment.appendChild(article);
                 projectsContainer.appendChild(fragment);

@@ -13,6 +13,18 @@
     margin: 0;
 }
 
+/* SCROLL BAR DA PÁGINA */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--raisin-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--rosewood);
+    border-radius: 4px;
+}
+
+/* BODY */
 #content-container {
     width: 100%;
     gap: 100px;
@@ -22,8 +34,29 @@
     font-weight: bold;
 }
 
+
 #to-top-button {
+    width: 4rem;
+    height: 4rem;
     position: absolute;
+    bottom: 14rem;
+    right: 4rem;
+    background-color: var(--rosewood);
+    border-radius: 50%;
+}
+
+#arrow-up {
+    color: var(--raisin-black);
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+#arrow-up:hover {
+    text-decoration: none;
+}
+
+#to-top-button:hover {
+    background-color: var(--fire-engine-red);
 }
 
 /*--HEADER + NAV--*/
@@ -129,12 +162,16 @@ main {
     gap: 1rem;
 }
 
-svg {
+svg, g {
     fill: var(--rosewood);
 }
 
-g {
-    fill: var(--rosewood);
+svg:hover, g:hover {
+    fill: var(--fire-engine-red);
+}
+
+.tech-icon-container:hover path {
+    fill: var(--fire-engine-red);
 }
 
 .tech-icon-container{
@@ -147,7 +184,6 @@ g {
 
 /* MAIN > PROJECTS */
 #projects{
-    height: 50rem;
     gap: 2.5rem;
 }
 
@@ -161,6 +197,16 @@ g {
     height: 16rem;
     gap: 2rem;
     overflow-x: scroll;
+}
+
+#repos-container::-webkit-scrollbar {
+    height: 6px;
+    background-color: var(--raisin-black);
+}
+
+#repos-container::-webkit-scrollbar-thumb {
+    background-color: var(--rosewood);
+    border-radius: 4px;
 }
 
 article {
@@ -193,6 +239,7 @@ article > header {
 
 /* FOOTER */
 #page-footer {
+    margin-top: 200px;
     height: 7rem;
     gap: 1rem;
     border-radius: 16px 16px 0 0;
@@ -204,6 +251,12 @@ article > header {
 
 .social-icon {
     width: 2.5rem;
+}
+
+.social-icon:hover path,
+.social-icon:hover svg,
+.social-icon:hover g {
+    color: var(--fire-engine-red);
 }
 
 /* Estilos reutilizáveis -- Visual */
