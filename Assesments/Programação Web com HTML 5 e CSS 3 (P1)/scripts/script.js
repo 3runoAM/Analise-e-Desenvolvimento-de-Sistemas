@@ -1,12 +1,11 @@
 const projectsContainer = document.getElementById("repos-container");
+const fragment = document.createDocumentFragment();
 
 fetch("https://api.github.com/users/3runoAM/repos")
   .then((response) => response.json())
   .then((result) => {
     result.forEach((repo) => {
       if (repo.language) {
-        let fragment = document.createDocumentFragment();
-
         const article = document.createElement("article");
         article.classList.add("background-highlight", "flex-column");
 
@@ -39,13 +38,19 @@ fetch("https://api.github.com/users/3runoAM/repos")
 
         repoLink.href = repo.html_url;
         repoLink.innerText = "Acessar Repositório";
+        repoLink.target = "_blank";
+        repoLink.classList.add('underline')
 
         footer.appendChild(repoLink);
         article.appendChild(footer);
 
         fragment.appendChild(article);
-        projectsContainer.appendChild(fragment);
       }
     });
   })
+  .then(() => {
+    projectsContainer.appendChild(fragment);
+  })
   .catch((error) => console.log(error));
+
+

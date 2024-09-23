@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14637c58-57bd-4557-b483-e4c6ae82dca2" name="Changes" comment="" />
+    <list default="true" id="14637c58-57bd-4557-b483-e4c6ae82dca2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Programação Web com HTML 5 e CSS 3 (P1)/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_12/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/questao_12/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questao_8/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/questao_8/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +31,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.script.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Testes de performance por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/3º Teste de Performance",
+    "last_opened_file_path": "D:/Workspace/Análise e Desenvolvimento de Sistemas/Assesments/Programação Web com JavaScript I (P1)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -35,7 +51,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -49,6 +65,9 @@
       <updated>1726202782959</updated>
       <workItem from="1726202784019" duration="275000" />
       <workItem from="1726452772351" duration="23000" />
+      <workItem from="1726804726005" duration="1162000" />
+      <workItem from="1726950858076" duration="23000" />
+      <workItem from="1727117418319" duration="2747000" />
     </task>
     <servers />
   </component>
