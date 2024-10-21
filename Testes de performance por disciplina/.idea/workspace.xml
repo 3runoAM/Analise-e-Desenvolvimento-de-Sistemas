@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10babf8a-b5c4-4439-bf6a-4dddd9a42b2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assesments por disciplina/Programação Web com HTML 5 e CSS 3 (P1)/.idea/Programação Web com HTML 5 e CSS 3 (P1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assesments por disciplina/Programação Web com JavaScript I (P1)/.idea/Programação Web com JavaScript I (P1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clube de Programação/Beecrowd/Lista 1/src/Questao05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/.idea/Programação Web com HTML 5 e CSS 3 (P1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/assets/image/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com HTML 5 e CSS 3 (P1)/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/.idea/Programação Web com JavaScript I (P1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/assets/images/exemplo-de-saida.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_10/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_10/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_11/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_11/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_12/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_12/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_13/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_13/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_14/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_15/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_15/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_16/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_16/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_2/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_3/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_4/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_5/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_6/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_6/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_7/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_8/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_9/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assesments/Programação Web com JavaScript I (P1)/questao_9/script.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nkfgckiKfseGWO2Jg8wi8CNLgK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Workspace/ADS/Testes de performance por disciplina/Interatividade em Páginas Web (P1)/1º Teste de Performance",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10babf8a-b5c4-4439-bf6a-4dddd9a42b2e" name="Changes" comment="" />
+      <created>1729522107503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729522107503</updated>
+      <workItem from="1729522108520" duration="133000" />
+      <workItem from="1729522602253" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
