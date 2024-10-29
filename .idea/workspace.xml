@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13b4810-c2c3-4a14-b972-90632217c3e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance/.idea/1º Teste de Performance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +23,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Workspace/ADS/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/ADS/Testes de performance por disciplina/Programação Web com JavaScript II (P1)/1º Teste de Performance&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,6 +56,7 @@
       <workItem from="1729442980410" duration="17000" />
       <workItem from="1729603993258" duration="12000" />
       <workItem from="1729604029722" duration="179000" />
+      <workItem from="1729620156874" duration="7000" />
     </task>
     <servers />
   </component>

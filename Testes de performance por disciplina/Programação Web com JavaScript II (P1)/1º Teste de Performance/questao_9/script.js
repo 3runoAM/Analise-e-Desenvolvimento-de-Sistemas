@@ -4,6 +4,4 @@ const LOTRIndex = movieList.indexOf("Senhor dos Anéis");
 
 const matrixIndex = movieList.indexOf("Matrix");
 
-const moviesBetween = matrixIndex - (LOTRIndex + 1);
-
-movieList.splice(LOTRIndex+1, moviesBetween);
+console.log(movieList.splice(LOTRIndex+1, matrixIndex));
