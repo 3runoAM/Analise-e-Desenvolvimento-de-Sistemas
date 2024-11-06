@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="script.js" type="NodeJSConfigurationType" singleton="false" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/20.18.0/node" nameIsGenerated="true" path-to-js-file="script.js" typescript-loader="bundled" working-dir="$PROJECT_DIR$/questao_1">
+    <method v="2" />
+  </configuration>
+</component>
