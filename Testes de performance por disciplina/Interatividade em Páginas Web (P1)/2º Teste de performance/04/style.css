@@ -1,0 +1,13 @@
+.solid-border {
+    border: 1px solid #6700ff;
+}
+
+.black-background-padding-20{
+    background-color: #000000;
+    padding: 20px;
+}
+
+.big-red-text{
+    color: #b50000;
+    font-size: 15px;
+}

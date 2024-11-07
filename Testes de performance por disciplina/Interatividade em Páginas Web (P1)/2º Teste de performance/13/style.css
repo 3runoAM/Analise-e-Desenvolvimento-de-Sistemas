@@ -1,0 +1,9 @@
+.hide {
+    display: none;
+}
+
+.background-size {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
