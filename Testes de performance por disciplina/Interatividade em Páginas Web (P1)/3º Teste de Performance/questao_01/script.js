@@ -7,6 +7,7 @@ button.addEventListener('click', () => {
     const listItem = document.createElement('li');
 
     listItem.innerText = `Item ${ulChildren + 1}`;
+    listItem.setAttribute('id', `item-${ulChildren + 1}`);
     unorderedList.appendChild(listItem);
 
     if(ulChildren === 9) {

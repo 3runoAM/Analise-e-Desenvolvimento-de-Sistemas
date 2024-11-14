@@ -1,0 +1,16 @@
+h1 {
+  text-decoration: underline;
+}
+
+.dark {
+  background-color: #222222;
+  color: #FAEBD7FF;
+}
+
+a:hover .dark {
+  color: #6C0000FF;
+}
+
+img {
+  width: 25%;
+}
