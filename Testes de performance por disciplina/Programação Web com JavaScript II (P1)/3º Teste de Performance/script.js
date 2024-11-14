@@ -454,6 +454,7 @@ function ordemDecrescente(maior, meio, menor){
 
   return `${maior} ${meio} ${menor}`;
 }
+
 const num1 = Number(prompt("Digite o primeiro número:"));
 const num2 = Number(prompt("Digite o segundo número:"));
 const num3 = Number(prompt("Digite o terceiro número:"));
