@@ -1,0 +1,35 @@
+#content-container {
+  display: flex;
+  gap: 10rem;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 18rem;
+  height: 24rem;
+  border: 1px solid black;
+}
+
+.draggable {
+  background-color: #A9A9A9FF;
+}
+
+#draggable-text{
+    width: 10rem;
+}
+
+#draggable-box{
+    width: 10rem;
+    height: 10rem;
+}
+
+#draggable-image{
+    width: 5rem;
+    height: 5rem;
+}
