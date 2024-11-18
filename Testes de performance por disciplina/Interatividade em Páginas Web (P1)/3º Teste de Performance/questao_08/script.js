@@ -18,7 +18,6 @@ function dragOver(event) {
 }
 
 function drop(event) {
-    event.preventDefault();
     const data = event.dataTransfer.getData('text/html');
     const element = document.getElementById(data);
     event.target.appendChild(element);
