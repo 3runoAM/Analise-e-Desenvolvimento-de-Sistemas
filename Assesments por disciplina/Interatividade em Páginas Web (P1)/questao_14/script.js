@@ -1,11 +1,20 @@
 const secao = document.querySelector('section');
 const fragment = document.createDocumentFragment();
+const h1 = document.createElement('h1');
+
+h1.textContent = 'Produtos Fake Store API';
+document.body.prepend(h1);
 
 fetch('https://fakestoreapi.com/products?limit=10')
-    .then(response => response.json())
+    .then(response => {
+        const p = document.createElement('p');
+        p.textContent = 'Carregando...';
+
+        return response.json();
+    })
     .then(data => {
         data.forEach((product) => {
-            const titulo = document.createElement('h1');
+            const titulo = document.createElement('h2');
             titulo.textContent = product.title;
 
             const imagem = document.createElement('img');

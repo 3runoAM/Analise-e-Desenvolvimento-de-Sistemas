@@ -1,8 +1,19 @@
+* {
+    margin: 0;
+}
+
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+}
+
+#deputado-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
 }
 
 section {
@@ -34,4 +45,3 @@ img {
     width: 10rem;
     align-self: center;
 }
-

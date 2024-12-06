@@ -1,12 +1,12 @@
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
-    background-color: #cdcdcd;
     justify-content: center;
     width: 90%;
     gap: 2rem;
@@ -18,31 +18,36 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     width: 20rem;
-    height: 30rem;
+    height: 34rem;
     gap: 1rem;
     padding: 30px;
     border-radius: 10px;
     background-color: #F7F7F7;
-}
-
-.info-container{
-    height: 50%;
+    box-shadow: 0 10px 10px #00000019;
 }
 
 .card > * {
     margin: 0;
 }
 
-h1 {
+.info-container{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 22rem;
+}
+
+h2 {
     font-size: 1.2rem;
     text-align: center;
     color: #333;
+    height: 10%;
 }
 
 img {
-    width: 120px;
-    height: 120px;
+    width: 12rem;
+    height: 40%;
+    object-fit: scale-down;
 }
 

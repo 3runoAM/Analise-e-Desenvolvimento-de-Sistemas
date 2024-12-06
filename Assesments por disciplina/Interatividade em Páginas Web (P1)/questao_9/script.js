@@ -34,14 +34,11 @@ let frasesIndex = 0;
 
 botao.addEventListener('click', () => {
     console.log('Oi! Você clicou no botão');
-    if(frasesIndex >= frases.length) frasesIndex = 0;
-    mudaTextoBotao(botao, frases, frasesIndex);
+    if(frasesIndex >= frases.length || frasesIndex < 0) frasesIndex = 0;
+
+    botao.textContent = frases[frasesIndex];
     frasesIndex++;
 });
-
-function mudaTextoBotao(botao, frases, frasesIndex) {
-    botao.textContent = frases[frasesIndex];
-}
 
 
 const paragrafo = document.querySelector('p');

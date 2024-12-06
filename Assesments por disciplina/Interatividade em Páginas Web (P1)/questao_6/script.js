@@ -1,5 +1,5 @@
 const caixa = document.querySelector('.caixa');
-caixa.className = 'ativa';
+caixa.className = '';
 
 const button = document.createElement('button');
 button.innerText = 'Alterar modo';

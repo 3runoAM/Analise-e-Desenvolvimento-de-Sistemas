@@ -27,22 +27,22 @@ const comments = [
     {
         username: "user123",
         comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        date: "20/10/2024"
+        date: new Date("2013-12-21")
     },
     {
         username: "user789",
         comment: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        date: "20/05/2024"
+        date: new Date("2024-05-20")
     },
     {
         username: "user101",
         comment: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        date: "15/11/2024"
+        date: new Date("2024-10-20"),
     },
     {
         username: "user202",
         comment: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        date: "25/09/2024"
+        date: new Date("2024-09-03"),
     },
 ];
 
@@ -50,7 +50,7 @@ window.onload = () => {
     const commentSection = document.body.querySelector('footer').querySelector('#comments-section');
 
     comments.sort((a, b) => {
-        return new Date(a.date) - new Date(b.date);
+        return new Date(b.date) - new Date(a.date);
     }).forEach(comment => {
         const commentDiv = createCommentStructure(comment);
         commentSection.appendChild(commentDiv);
@@ -74,7 +74,7 @@ sendButton.addEventListener('click', (e) => {
     const commentObj = {
         username: "username",
         comment: commentText.value,
-        date: new Date().toLocaleDateString('pt-BR')
+        date: new Date(),
     }
 
     comments.push(commentObj)
@@ -100,7 +100,7 @@ function createCommentStructure(commentObj) {
 
     const commentDateP = document.createElement('p');
     commentDateP.className = 'comment-date';
-    commentDateP.textContent = commentObj.date;
+    commentDateP.textContent = commentObj.date.toLocaleDateString('pt-BR');
 
     userInfoContainer.append(usernameH3, commentDateP);
 
