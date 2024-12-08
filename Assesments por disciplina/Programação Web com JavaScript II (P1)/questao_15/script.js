@@ -14,7 +14,7 @@ function calculateValidationDigit(firstNineCPFNumbers, multiplier){
 
 function fixDigit(digit) {
     const division = digit % 11;
-    return division % 11 === 10 ? 0 : division;
+    return division % 11 >= 10 ? 0 : division;
 }
 
 function validateCPF(cpf, validCPFPattern) {
