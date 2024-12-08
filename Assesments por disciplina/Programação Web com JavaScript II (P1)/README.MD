@@ -1,114 +1,235 @@
-# Tarefas de HTML e CSS
+# Assessment: Programação Web com Javascript
 
-## [Tarefa 01: Tags Semânticas](questao_1/index.html)
+---
 
-Estruture um documento HTML com tags semânticas do HTML5. No mínimo, utilize 5 tags semânticas. Defina cores de fundo diferentes para cada tag. Adicione conteúdo ou altere o tamanho do elemento HTML para tornar possível a sua visualização no navegador.
+## 1. Trabalhando com `pop` e `shift`
 
-## [Tarefa 02: Estilizando Parágrafos](questao_2/index.html)
+Assuma o seguinte vetor de planetas (copie-o para o seu código):
 
-Estruture um documento HTML com 4 parágrafos contendo textos diferentes. Estilize cada parágrafo de forma única, sem repetição, alterando a visualização dos parágrafos no navegador. Use seletores para distinguir os parágrafos e estilize-os numa folha de estilos externa ao documento HTML.
+```javascript
+let planetas = ["Mercúrio", "Vênus", "Terra", "Marte", "Júpiter"];
+```
 
-## [Tarefa 03: Tipografia](questao_3/index.html)
+Agora, realize/implemente as seguintes operações utilizando `pop` e `shift`:
 
-Copie o código do exercício anterior e use 4 tipografias diferentes do Google Fonts, uma para cada parágrafo.
+- Remova o primeiro planeta (índice 0).
+- Remova o último planeta (índice 4).
+- Mostre o vetor modificado no console do navegador.
 
-## [Tarefa 04: Tipografia Incorporada](questao_4/index.html)
+---
 
-Estruture um documento HTML com 3 parágrafos e um título. Faça o download e incorpore ao seu projeto 3 famílias tipográficas diferentes. Vincule a cada parágrafo uma família tipográfica diferente via CSS em uma folha de estilo externa ao seu documento HTML.
+## 2. Trabalhando com `splice`
 
-## [Tarefa 05: Listas, Listas e Listas](questao_5/index.html)
+Assuma o seguinte vetor de planetas (copie-o para o seu código):
 
-Estruture um documento HTML com 3 listas estilizadas:
-- Uma lista ordenada
-- Uma lista não ordenada
-- Uma lista de definição
+```javascript
+let planetas = ["Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno", "Urano", "Netuno", "Plutão", "Ceres"];
+```
 
-Cada lista deve possuir, no mínimo, 6 itens. O conteúdo das listas deve conter:
-- Suas preferências musicais (lista ordenada)
-- Suas preferências gastronômicas (lista não ordenada)
-- Canais onde você consome informação na web, detalhando-os (lista de definição).
+Agora, realize/implemente as seguintes operações utilizando `splice`:
 
-## [Tarefa 06: Navegação](questao_6/index.html)
+- Remova o planeta Terra.
+- Adicione Terra no lugar de Urano.
+- Troque a ordem de Marte e Júpiter (de modo que fique Júpiter e depois Marte).
+- Mostre o vetor modificado no console do navegador.
 
-Estruture um documento HTML com tags para navegação guiada para itens externos ao seu projeto. Forneça links para:
-- A página do Infnet
-- A página da Globo.com
-- A página do LinkedIn
-- A página do YouTube
-- A página do Instagram
+---
 
-O conteúdo do hiperlink deve ser representado pela combinação de ícone e texto, conforme o exemplo a seguir:
+## 3. Trabalhando com `splice` e `indexOf`
 
-![Exemplo](assets/imagens/exemplo_questao_6.png)
+Assuma o seguinte vetor de planetas (copie-o para o seu código):
 
-## [Tarefa 07: Header e Nav](questao_7/index.html)
+```javascript
+let planetas = ["Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Terra", "Urano", "Netuno", "Plutão", "Ceres"];
+```
 
-Estruture um documento HTML com tags semânticas do HTML5 para cabeçalho e navegação. O cabeçalho deve conter um logotipo representando a marca. A navegação deve ter 5 elementos:
-- Home
-- Lojas
-- Cardápio
-- Promoções
-- Contato
+Agora, utilizando `splice` e `indexOf/lastIndexOf`:
 
-Estilize o elemento de navegação e centralize o cabeçalho e a navegação.
+- Remova os planetas que estão antes do planeta Terra (Vênus e Urano, no caso).
+- Mostre o vetor modificado no console do navegador.
+- Para implementar sua lógica, assuma que o planeta Terra poderia estar ocupando qualquer índice.
 
-## [Tarefa 08: Main](questao_8/index.html)
+---
 
-Estruture um documento HTML a partir do exercício anterior. Defina abaixo da navegação um contêiner principal, contendo:
-- Um título
-- 3 vídeos: um incorporado do YouTube, um incorporado de um arquivo presente na sua estrutura raiz de arquivos do projeto, e o último com link direto da web.
+## 4. Trabalhando com `while`
 
-## [Tarefa 09: Desenvolvendo Páginas Simples](questao_9/index.html)
+Utilizando `while` (ou `do..while`):
 
-Estruture um documento HTML com a estilização necessária para reproduzir visualmente o conteúdo a seguir:
-- Observe a centralização dos elementos.
-- Trabalhe a proporção de título, texto e imagem.
-- A borda é meramente ilustrativa.
+- Faça um programa que solicite o nome do usuário (prompt), de modo que o nome deve ser solicitado novamente caso nada tenha sido digitado.
+- Depois, mostre o nome digitado no console do navegador.
 
-![Exemplo](assets/imagens/exemplo_questao_9.png)
+---
 
-## [Tarefa 10: Cards](questao_10/index.html)
+## 5. Trabalhando com `for`
 
-Estruture um documento HTML para a criação de um ou mais cards conforme o exemplo a seguir. Cada card deve conter:
-- Imagem
-- Título
-- Descrição
+Assuma o seguinte vetor de tuplas (copie-o para o seu código):
 
-![Exemplo](assets/imagens/exemplo_questao_10.png)
+```javascript
+let tuplas = [[3, 7], [5, 2], [8, 4], [1, 9], [6, 3]];
+```
 
-## [Tarefa 11: Desenvolvendo Páginas Simples](questao_11/index.html)
+Agora, utilizando `for..of`:
 
-Reproduza a postagem exemplo do Instagram, definindo títulos e suas hierarquias, imagens e ícones. Observe o peso da tipografia em cada texto entregue. Limite o seu container a 600px de largura.
+- Crie um programa que realize a soma de todos os números do vetor.
+- Mostre o resultado no console do navegador.
 
-![Exemplo](assets/imagens/exemplo_questao_11.png)
+---
 
-## [Tarefa 12: Desenvolvendo Páginas Simples](questao_12/index.html)
+## 6. Trabalhando com `for` aninhado
 
-Reproduza o layout a seguir com container pai limitado a 992px. O elemento de navegação deve seguir o proposto, com logotipo à direita. Os textos devem estar justificados. Estilize as cores de acordo com a sua escolha.
+Assuma o seguinte vetor de números (copie-o para o seu código):
 
-![Exemplo](assets/imagens/exemplo_questao_12.png)
+```javascript
+let numeros = [3, 1, 2, 5];
+```
 
-## [Tarefa 13: Seletores CSS](questao_13/index.html)
+Agora, utilizando `for` aninhado:
 
-Estruture um documento HTML com parágrafos descrevendo cada um dos 6 possíveis seletores e suas chamadas no CSS. Dê exemplos ativos dos seletores em funcionamento, estilizando cada um de forma diferente.
+- Faça um programa para transformar esse vetor de números em um vetor de vetores com a contagem de 1 até o número do vetor.
+- O resultado final deve ser:
 
-## [Tarefa 14: Ancorando Identificadores](questao_14/index.html)
+```javascript
+let contagens = [[1, 2, 3], [1], [1, 2], [1, 2, 3, 4, 5]];
+```
 
-Estruture um documento HTML para praticar a criação de links que direcionam o usuário para diferentes seções da mesma página HTML. Crie um cabeçalho com um título chamado "Minha Página com Âncoras". Abaixo do título, crie uma lista de navegação com links que direcionam o usuário para três seções diferentes da página:
-- Um link chamado "Sobre Mim" que leva a uma seção de descrição pessoal.
-- Um link chamado "Meus Hobbies" que leva a uma seção sobre hobbies.
-- Um link chamado "Contato" que leva a uma seção de informações de contato.
+- Mostre esse vetor no console do navegador.
 
-Abaixo do menu de navegação, crie três seções diferentes: Sobre Mim, Meus Hobbies e Contato. Cada seção deve conter o título da seção, um parágrafo detalhando o necessário para a seção e um identificador da seção. Faça a âncora apontar para o identificador da seção desejada e teste seu funcionamento. No final das seções, crie uma âncora para retornar ao topo da página. Adicione um identificador no cabeçalho que servirá para ancorar o retorno ao topo.
+---
 
-## [Tarefa 15: Tags Semânticas](questao_15/index.html)
+## 7. Trabalhando com `map`
 
-Estruture um documento HTML com duas âncoras específicas:
-- A primeira âncora para efetuar o download de um arquivo.
-- A segunda âncora para envio de e-mail.
+Assuma o seguinte vetor de letras (copie-o para o seu código):
 
-## [Tarefa 16: Reprodução de Music Player](questao_16/index.html)
+```javascript
+let minusculas = ["a", "b", "c", "d", "e"];
+```
 
-Estruture um documento HTML para reproduzir o player abaixo. Limite seu contêiner principal a 576px. Use ícones do Google Fonts. Escolha as cores e imagens.
+Agora, utilizando `map`:
 
-![Exemplo](assets/imagens/exemplo_questao_16.png)
+- Crie um vetor de letras maiúsculas.
+- Mostre esse vetor no console do navegador.
+
+---
+
+## 8. Trabalhando com `map` e `filter`
+
+Assuma o seguinte vetor de tuplas de números (copie-o para o seu código):
+
+```javascript
+const tuplas = [[3, 5], [7, 1], [6, 8], [4, 9], [2, 3], [8, 1], [5, 7], [9, 6], [1, 4], [2, 8]];
+```
+
+Agora, utilizando `map` e `filter`:
+
+- Obtenha um vetor com as somas das tuplas, mas somente para os elementos que tenham um número par e outro ímpar.
+- O resultado final deve ser:
+
+```javascript
+[13, 5, 9, 15, 5];
+```
+
+- Mostre esse vetor no console do navegador.
+
+---
+
+## 9. Trabalhando com `reduce`
+
+Assuma o seguinte vetor de números (copie-o para o seu código):
+
+```javascript
+let numeros = [1, [7, 2, [1, 2, 3, [4, [5, [4, 2, 6, [7, [8, [1, 2, 3, 9, [1, 10]]]]]]]]]];
+```
+
+Agora, utilizando `reduce`:
+
+- Realize o somatório dos números.
+- Mostre o resultado no console do navegador.
+
+---
+
+## 10. Trabalhando com `toFixed`
+
+Assuma a seguinte frase (copie-a para o seu código):
+
+```javascript
+let frase = "Nesse momento, o BitCoin está em R$ 530.085,52. Loucura, né?";
+```
+
+Agora:
+
+- Manipule a string para extrair o preço do BitCoin.
+- Divida por três e mostre esse valor no console do navegador, com apenas duas casas decimais (`toFixed`).
+- O resultado deve ser: `"176695.17"` (string).
+
+---
+
+## 11. Quantas letras "A"?
+
+Assuma a seguinte frase (copie-a para o seu código):
+
+```javascript
+let frase = "toda ciência seria supérflua se houvesse coincidência imediata entre a aparência e a essência das coisas";
+```
+
+Agora:
+
+- Implemente uma lógica para descobrir quantas letras "a" existem nessa frase.
+- **Não utilize `for` nem `while`.**
+- Mostre o resultado no console do navegador.
+
+---
+
+## 12. Remova as vogais
+
+Assuma a seguinte frase (copie-a para o seu código):
+
+```javascript
+let frase = "toda ciencia seria superflua se houvesse coincidencia imediata entre a aparencia e a essencia das coisas";
+```
+
+Agora:
+
+- Implemente uma lógica para criar uma nova string que seja igual a essa, só que sem as vogais.
+- Mostre essa string no console do navegador.
+
+---
+
+## 13. Validar CPF
+
+Crie uma função chamada `validarCPF`:
+
+- Deve aceitar um argumento (`string`) chamado `cpf`.
+- A função deve retornar `true` caso o CPF seja válido, e `false` caso seja inválido.
+- Assuma que um CPF válido está no seguinte formato: `"000.000.000-00"` (onde “0” pode ser qualquer número).
+- Mostre três exemplos de uso.
+
+---
+
+## 14. Validar CPF com `throw`
+
+Copie a função `validarCPF` desenvolvida na questão anterior (**não modifique essa função**).
+
+- Implemente um programa que solicite um CPF ao usuário via `prompt`.
+- Caso o CPF informado seja inválido, dispare um `InvalidCPFError`:
+
+```javascript
+class InvalidCPFError extends Error {}
+```
+
+- **Não é necessário tratar o erro.**
+
+---
+
+## 15. Validar CPF com `try..catch`
+
+Copie todo o código da questão anterior.
+
+- Utilize `try..catch` para implementar o tratamento de erro.
+- Caso não haja erro, mostre no console do navegador: `"CPF Válido"`.
+- Caso contrário, mostre: `"CPF Inválido"`.
+
+---
+
+## 16. Entendendo `try..catch`
+
+- Através de comentários no arquivo `script.js`, cite duas vantagens de utilizar `try..catch` para o tratamento de erros.
