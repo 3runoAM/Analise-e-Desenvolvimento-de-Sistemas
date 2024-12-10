@@ -15,7 +15,6 @@ console.log(invalidExampleC);
 const invalidExampleD = validateCPF('098.7654.3210', validCPFPattern);
 console.log(invalidExampleD);
 
-
 function validateCPF(cpf, validCPFPattern) {
     return validCPFPattern.test(cpf);
 }
