@@ -1,0 +1,14 @@
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.AssemblyInfoInputs.cache
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.AssemblyInfo.cs
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\TesteDePerformance3\bin\Debug\net9.0\TesteDePerformance3.exe
+D:\Workspace\C#\TesteDePerformance3\bin\Debug\net9.0\TesteDePerformance3.deps.json
+D:\Workspace\C#\TesteDePerformance3\bin\Debug\net9.0\TesteDePerformance3.runtimeconfig.json
+D:\Workspace\C#\TesteDePerformance3\bin\Debug\net9.0\TesteDePerformance3.dll
+D:\Workspace\C#\TesteDePerformance3\bin\Debug\net9.0\TesteDePerformance3.pdb
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.dll
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\refint\TesteDePerformance3.dll
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.pdb
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\TesteDePerformance3.genruntimeconfig.cache
+D:\Workspace\C#\TesteDePerformance3\obj\Debug\net9.0\ref\TesteDePerformance3.dll

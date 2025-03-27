@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TesteDePerformance3/1.0.0": {
+        "runtime": {
+          "TesteDePerformance3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteDePerformance3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

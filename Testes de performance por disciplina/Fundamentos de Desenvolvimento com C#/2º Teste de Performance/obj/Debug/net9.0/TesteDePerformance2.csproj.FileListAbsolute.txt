@@ -1,0 +1,14 @@
+D:\Workspace\C#\TesteDePerformance2\bin\Debug\net9.0\TesteDePerformance2.exe
+D:\Workspace\C#\TesteDePerformance2\bin\Debug\net9.0\TesteDePerformance2.deps.json
+D:\Workspace\C#\TesteDePerformance2\bin\Debug\net9.0\TesteDePerformance2.runtimeconfig.json
+D:\Workspace\C#\TesteDePerformance2\bin\Debug\net9.0\TesteDePerformance2.dll
+D:\Workspace\C#\TesteDePerformance2\bin\Debug\net9.0\TesteDePerformance2.pdb
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.AssemblyInfoInputs.cache
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.AssemblyInfo.cs
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.csproj.CoreCompileInputs.cache
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.dll
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\refint\TesteDePerformance2.dll
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.pdb
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\TesteDePerformance2.genruntimeconfig.cache
+D:\Workspace\C#\TesteDePerformance2\obj\Debug\net9.0\ref\TesteDePerformance2.dll
