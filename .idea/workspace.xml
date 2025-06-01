@@ -2,7 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13b4810-c2c3-4a14-b972-90632217c3e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Desenvolvimento Web com .NET e Bases de Dados (P2)/1º Teste de Performance/QuestoesConsole/TestePerformance1/Exercicio11/NameConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Desenvolvimento Web com .NET e Bases de Dados (P2)/1º Teste de Performance/QuestoesRazorPages/TP1/TP1/Pages/Event.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Desenvolvimento Web com .NET e Bases de Dados (P2)/1º Teste de Performance/QuestoesRazorPages/TP1/TP1/Pages/Event.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/CopilotIndices/17.12.53.23981/CodeChunks.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/CopilotIndices/17.12.53.23981/SemanticSymbols.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/CopilotIndices/17.12.53.23981/SemanticSymbols.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/CopilotIndices/17.12.53.23981/SemanticSymbols.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/FileContentIndex/2adb5d94-1f46-4c0f-b699-9907eaeacadf.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/FileContentIndex/59176705-dd98-4b9d-9427-5e5ad84c3177.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/FileContentIndex/8942e406-ac75-4917-8849-28fdb0b63500.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/FileContentIndex/b42c4356-8ca8-46bf-ad7f-06ec0896f722.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/FileContentIndex/be6c5680-c4a1-4cf2-a1da-2cca0275116f.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/copilot-chat/6698515e/sessions/0a0a57a7-8074-4db6-9b9b-0fc46b6d1178" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/copilot-chat/6698515e/sessions/314bfe07-303d-4619-9442-3de07a4a1a8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/v17/DocumentLayout.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/Assessment/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/ProjectEvaluation/assessment.metadata.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/ProjectEvaluation/assessment.projects.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/ProjectEvaluation/assessment.strings.v9.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Assessment.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Assessment.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/AssessmentProgram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Bruno_Martins_DR2_AT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio01/Exercicio01.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio02/Exercicio02.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio03/Exercicio03.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio04/Exercicio04.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio05/Exercicio05.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio06/Exercicio06.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio06/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio07/Account.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio07/Exercicio07.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio08/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio08/Exercicio08.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio08/Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio09/Exercicio09.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio09/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio10/Exercicio10.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio10/WrongNumberException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio11/Contact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio11/Exercicio11.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/Contact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/ContactFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/Exercicio12.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/MarkdownFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/RawTextFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com C#/Exercicio12/TableFormatter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/Bruno_Martins_DR1_AT.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/MinhaPrimeiraApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Exercicio01/OlaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Exercicio02/InvalidPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Exercicio02/Questao02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao03/Questao03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao04/Questao04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao05/Questao05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao05/Questao05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao06/Questao06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao06/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao07/Questao07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao07/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao08/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao08/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao08/Questao08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao08/Trainee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao09/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao09/Questao09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao10/Questao10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao10/produtos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao11/Questao11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assesments por disciplina/Fundamentos de Desenvolvimento com Java/src/Questao12/Questao12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Desenvolvimento de Serviços Web e Testes com Java (P2)/1º Teste de Performance/ScientificCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Desenvolvimento de Serviços Web e Testes com Java (P2)/1º Teste de Performance/ScientificCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/2º Teste de Performance/obj/Debug/net9.0/TesteDePerformance2.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Testes de performance por disciplina/Fundamentos de Desenvolvimento com C# (P2)/3º Teste de Performance/obj/Debug/net9.0/TesteDePerformance3.assets.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +113,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -34,7 +125,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
       </set>
     </attachedChunks>
   </component>
@@ -56,6 +147,7 @@
       <workItem from="1729620156874" duration="7000" />
       <workItem from="1730201111624" duration="278000" />
       <workItem from="1730373173506" duration="18000" />
+      <workItem from="1746470134387" duration="23000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,19 @@
+﻿@page
+@model EventModel
+@{
+    ViewData["Title"] = "Criação de Eventos";
+}
+
+<h2>@ViewData["Title"]</h2>
+<form method="post">
+    <label asp-for="@Model.Title">Nome: </label>
+    <input asp-for="@Model.Title" type="text">
+    
+    <label asp-for="@Model.EventLocation">Local: </label>
+    <input asp-for="@Model.EventLocation" type="text">
+
+    <label asp-for="@Model.Date">Data:</label>
+    <input asp-for="@Model.Date" type="date">
+    
+    <button type="submit" class="btn btn-primary">Criar evento</button>
+</form>

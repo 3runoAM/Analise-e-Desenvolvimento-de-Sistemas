@@ -1,0 +1,29 @@
+﻿@page
+@model TestePerformance2.Pages.CreateCountryModel
+@{
+	ViewData["Title"] = "Criar País";
+}
+
+<div>
+	<form method="post">
+		<div>
+			<label asp-for="Input.Name">Nome do país</label>
+			<input asp-for="Input.Name" />
+			<span class="text-light bg-danger" asp-validation-for="Input.Name"></span>
+		</div>
+		<br />
+		<br />
+		<div>
+			<label asp-for="Input.Code"></label>
+			<input asp-for="Input.Code"/>
+			<span Class="text-light bg-danger" asp-validation-for="Input.Code"></span>
+		</div>
+		<br />
+		<br />
+		<button type="submit">Criar país</button>
+	</form>
+</div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,27 @@
+﻿@page
+@model TestePerformance2.Pages.ListNotesModel
+@{
+	ViewData["Title"] = "Listar notas";
+}
+ 
+
+
+<h1>@ViewData["Title"]</h1>
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Nota</th>
+			<th>Download</th>
+		</tr>
+	</thead>
+   <tbody>
+		@foreach (var note in Model.Notes){
+			<tr>
+				<td>@note.Content</td>
+				<td><a href="@note.DownloadLink">Link para baixar</a></td>
+			</tr>
+		}
+   </tbody>
+</table>

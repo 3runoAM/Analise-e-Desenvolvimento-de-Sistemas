@@ -1,0 +1,27 @@
+﻿@page
+@model CreateCityModel
+@{
+	ViewData["Title"] = "Criar Cidade";
+}
+
+<div>
+	<form method="post">
+		<div>
+			<label asp-for="Input.CityName">Nome da cidade</label>
+			<br/>
+			<input placeholder="Sem nome" asp-for="Input.CityName" />
+			<br/>
+			<span class="text-light bg-danger" asp-validation-for="Input.CityName"></span>
+		</div>
+
+		<br />
+
+		<button type="submit">Salvar</button>
+	</form>
+	<br />	
+	<p>Nome da cidade: <span>@Model.Input.CityName</span></p>
+</div>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial"/>
+}

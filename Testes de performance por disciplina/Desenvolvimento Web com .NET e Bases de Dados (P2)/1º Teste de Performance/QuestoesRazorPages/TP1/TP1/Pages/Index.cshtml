@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel  
+@{  
+   ViewData["Title"] = "Home page";  
+}  
+
+<div>  
+<form method="post">  
+       <div class="form-group">    
+          <label asp-for="NewProduct.Name">Nome do Produto</label>    
+          <input asp-for="NewProduct.Name" class="form-control" />    
+            
+       </div>  
+	<div class="form-group">  
+		<label asp-for="NewProduct.Price">Preço do Produto</label>  
+		<input asp-for="NewProduct.Price" class="form-control" />  
+	</div>  
+	<button type="submit" class="btn btn-primary">Adicionar a lista</button>  
+</form>  
+
+   <h3 class="display-4">Lista de Produtos</h3>  
+   <ul>  
+	@foreach (var product in IndexModel.Products)  
+	{  
+		<li>  
+			<p>Nome: @product.Name</p>  
+			<p>Preço: @product.Price.ToString("C")</p>  
+		</li>  
+	}  
+   </ul>   
+</div>

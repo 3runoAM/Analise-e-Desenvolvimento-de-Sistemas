@@ -1,0 +1,63 @@
+﻿@page  
+@model TestePerformance2.Pages.CreateCountriesModel  
+@{
+	ViewData["Title"] = "Criar Países";
+}  
+
+<div class="d-flex justify-content-around">  
+  <form method="post">  
+      @for (int i = 0; i < 5; i++)  
+      {  
+          <div>  
+              <h4>Informações do <span>@(i + 1)</span>º país</h4>  
+              <div>  
+                  <label asp-for="Input[@i].Country.Name"> Nome do país</label>  
+                  <input asp-for="Input[@i].Country.Name" />  
+                  <span class="text-light bg-danger" asp-validation-for="Input[@i].Country.Name"></span>  
+              </div>  
+
+              <br />  
+
+              <div>  
+                  <label asp-for="Input[@i].Country.Code"> Código do país</label>  
+                  <input asp-for="Input[@i].Country.Code" />  
+                  <span class="text-light bg-danger" asp-validation-for="Input[@i].Country.Code"></span>  
+              </div>  
+          </div>  
+          <div style="height:10px; width:95%; color: #000"></div>  
+          <br />  
+      }  
+      <button type="submit">Criar países</button>  
+  </form>  
+
+  <div>
+        <table class="table table-bordered">
+            <thead>  
+              <tr>  
+                  <th>Nome</th>  
+                  <th>Código</th>  
+              </tr>  
+          </thead>  
+          <tbody>  
+              @if (Model.Input != null && Model.Input.Count > 0)  
+              {  
+                  @for (int i = 0; i < Model.Input.Count; i++)  
+                  {  
+                      <tr>  
+                          <td>  
+                              <p>@Model.Input[i]?.Country?.Name</p>
+                          </td>
+                          <td>
+                              <p>@Model.Input[i]?.Country?.Code</p>
+                          </td>
+                      </tr>  
+                  }  
+              }  
+          </tbody>  
+      </table>  
+  </div>  
+</div>  
+
+@section Scripts {  
+  <partial name="_ValidationScriptsPartial" />  
+}

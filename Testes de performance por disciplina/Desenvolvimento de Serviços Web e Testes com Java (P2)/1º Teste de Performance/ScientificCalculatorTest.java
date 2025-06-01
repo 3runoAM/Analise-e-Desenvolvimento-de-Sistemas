@@ -13,7 +13,7 @@ public class ScientificCalculatorTest {
        scientificCalculator = new ScientificCalculator();
     }
 
-    // TESTES DAS FUNÇÕES BÁSICAS
+    // TESTES DAS FUNÇÕES BÁSICAS7
     @Test
     public void shouldAssertSumOfPositives() {
         double result = scientificCalculator.add(1, 2);
