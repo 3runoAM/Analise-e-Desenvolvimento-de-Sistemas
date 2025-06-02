@@ -1,0 +1,28 @@
+﻿@page
+@model CityBreaks.Pages.CityDetails
+
+@{
+    ViewData["Title"] = "Mais detalhes";
+}
+
+<h2>@Model.City.CityName</h2>
+
+
+@if (@Model.City != null){
+    <ul>
+        @if (@Model.City.Properties.Any()){
+            <li>Propriedades:</li>
+            <ul>
+                @foreach (var property in @Model.City.Properties){
+                    <li>
+                        <p>@property.Name</p>
+                        <p>Valor: @property.PricePerNight</p>
+                    </li>
+                }
+            </ul>
+        }
+        else{
+            <li>Nenhuma propriedade encontrada</li>
+        }
+    </ul>
+}

@@ -1,0 +1,48 @@
+﻿@page
+@model CityBreaks.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome!!!</h1>
+    <p>3º Teste de Performance</p>
+</div>
+
+
+<div>
+    <div>
+        <h2>Propriedades por cidade</h2>
+        <ul>
+            @if (!@Model.Cities.Any()){
+                <li>Nenhuma cidade encontrada.</li>
+            }
+            else{
+                @foreach (var city in @Model.Cities)
+                {
+                    <li>
+                        <strong>
+                            <a href="/CityDetails?name=@city.CityName">
+                                @city.CityName - @city.Country.CountryCode
+                            </a>
+                        </strong>
+                        <br/>
+                        <ul>
+                            @if (!city.Properties.Any()){
+                                <li>Nenhuma propriedade encontrada</li>
+                            }
+                            else{
+                                @foreach (var property in city.Properties){
+                                    <li>
+                                        <p>@property.Name | Pernoite: @property.PricePerNight</p>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </li>
+                }
+            }
+
+        </ul>
+    </div>
+</div>

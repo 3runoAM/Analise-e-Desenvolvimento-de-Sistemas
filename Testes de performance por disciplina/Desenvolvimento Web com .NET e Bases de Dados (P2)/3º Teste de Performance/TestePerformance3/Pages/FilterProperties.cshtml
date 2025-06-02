@@ -1,0 +1,26 @@
+﻿@page
+@model CityBreaks.Pages.FilterProperties
+
+@{
+    ViewData["Title"] = "Editar Propriedade";
+}
+
+@if (Model.Properties.Any())
+{
+<ul>
+    @foreach (var property in Model.Properties)
+    {
+        <li>
+            <p>Nome: @property.Name</p>
+            <p>Localização: @property.City?.CityName</p>
+            <p>Preço do pernoite: @property.PricePerNight.ToString("C")</p>
+        </li>
+    }
+</ul>
+}
+@else
+{
+<div>
+    <p>Nenhuma propriedade encontrada com os filtros selecionados</p>
+</div>
+}
