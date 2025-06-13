@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityBreaks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41ebda52914ebdd45089f1be8585777fde7e3044")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09236c1d562cc847250b905ca9206f6417e9ea6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityBreaks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityBreaks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
