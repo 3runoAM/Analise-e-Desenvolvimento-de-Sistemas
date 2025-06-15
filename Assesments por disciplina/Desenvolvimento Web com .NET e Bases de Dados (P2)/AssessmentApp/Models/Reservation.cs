@@ -2,7 +2,9 @@
 
 namespace AssessmentApp.Models;
 
-public class Reservation{
+public class Reservation
+{
+    [Key]
     [Required]
     public int Id { get; set; }
     
@@ -19,5 +21,17 @@ public class Reservation{
     public TravelPackage TravelPackage { get; set; }
     
     [Required]
-    public DateTime DataReserva { get; set; }
+    public DateTime ReservationDate { get; set; }
+    
+    public Reservation() {  }
+    
+    public Reservation(int id, int clientId, Client client, int travelPackageId, TravelPackage travelPackage, DateTime reservationDate)
+    {
+        Id = id;
+        ClientId = clientId;
+        Client = client;
+        TravelPackageId = travelPackageId;
+        TravelPackage = travelPackage;
+        ReservationDate = reservationDate;
+    }
 }
