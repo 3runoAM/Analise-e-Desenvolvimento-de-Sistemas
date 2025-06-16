@@ -25,13 +25,13 @@ public class Reservation
     
     public Reservation() {  }
     
-    public Reservation(int id, int clientId, Client client, int travelPackageId, TravelPackage travelPackage, DateTime reservationDate)
+    public Reservation(int id, int clientId, Client client, int travelPackageId, TravelPackage travelPackage)
     {
         Id = id;
         ClientId = clientId;
         Client = client;
         TravelPackageId = travelPackageId;
         TravelPackage = travelPackage;
-        ReservationDate = reservationDate;
+        ReservationDate = DateTime.Now;
     }
 }

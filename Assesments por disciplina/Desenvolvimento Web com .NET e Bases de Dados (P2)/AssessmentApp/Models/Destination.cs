@@ -8,15 +8,13 @@ public class Destination
     [Required]
     public int Id { get; set; }
     
-    [Required]
-    [StringLength(100, ErrorMessage = "Máximo de 100 caracteres")]
+    [Required(ErrorMessage = "O nome é obrigatório")]
+    [StringLength(100, MinimumLength = 3, ErrorMessage = "Mínimo 3 caracteres")]
     public string Name { get; set; }
     
-    [Required]
-    [StringLength(100, ErrorMessage = "Máximo de 100 caracteres")]
+    [Required(ErrorMessage = "O nome do país é obrigatório")]
+    [StringLength(100, MinimumLength = 3, ErrorMessage = "Mínimo 3 caracteres")]
     public string CountryName { get; set; }
-    
-    public bool IsActive { get; set; } = true;
     
     public Destination() {  }
     

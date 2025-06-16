@@ -1,19 +1,102 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|d:\\workspace\\ads\\assesments por disciplina\\desenvolvimento web com .net e bases de dados (p2)\\assessmentapp\\data\\services\\implementation\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|solutionrelative:data\\services\\implementation\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|d:\\workspace\\ads\\assesments por disciplina\\desenvolvimento web com .net e bases de dados (p2)\\assessmentapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|d:\\workspace\\ads\\assesments por disciplina\\desenvolvimento web com .net e bases de dados (p2)\\assessmentapp\\models\\travelpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|solutionrelative:models\\travelpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|d:\\workspace\\ads\\assesments por disciplina\\desenvolvimento web com .net e bases de dados (p2)\\assessmentapp\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1D2A7DA-6766-4C51-BFF5-A146BE0289E7}|AssessmentApp.csproj|solutionrelative:models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 50,
+          "DockedWidth": 73,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Data\\Services\\Implementation\\ClientService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\Implementation\\ClientService.cs",
+              "ToolTip": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Data\\Services\\Implementation\\ClientService.cs",
+              "RelativeToolTip": "Data\\Services\\Implementation\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:37:52.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TravelPackage.cs",
+              "DocumentMoniker": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\TravelPackage.cs",
+              "RelativeDocumentMoniker": "Models\\TravelPackage.cs",
+              "ToolTip": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\TravelPackage.cs",
+              "RelativeToolTip": "Models\\TravelPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:36:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:36:29.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\Destination.cs",
+              "RelativeDocumentMoniker": "Models\\Destination.cs",
+              "ToolTip": "D:\\Workspace\\ADS\\Assesments por disciplina\\Desenvolvimento Web com .NET e Bases de Dados (P2)\\AssessmentApp\\Models\\Destination.cs",
+              "RelativeToolTip": "Models\\Destination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:36:29.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 139,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

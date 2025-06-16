@@ -20,6 +20,15 @@ namespace AssessmentApp.Data {
             modelBuilder.ApplyConfiguration(new DestinationConfiguration());
             modelBuilder.ApplyConfiguration(new ReservationConfiguration());
             modelBuilder.ApplyConfiguration(new TravelPackageConfiguration());
+
+            modelBuilder.Entity<Client>().HasData(
+                new Client
+                {
+                    Id = 2112,
+                    Name = "Admin",
+                    Email = "admin@example.com",
+                }
+            );
         }
     }
 }

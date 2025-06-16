@@ -17,7 +17,7 @@ public class TravelPackage
     public DateTime StartDate { get; set; }
     
     [Required]
-    [FutureDate(ErrorMessage = "A data de início deve ser no futuro.")]
+    [FutureDate(ErrorMessage = "A data de encerramento deve ser no futuro.")]
     public DateTime EndDate { get; set; }
 
     [Required]
@@ -25,20 +25,14 @@ public class TravelPackage
     public int CapacityLimit { get; set; }
 
     [Required]
-    [Range(0.00, double.MaxValue, ErrorMessage = "O preço por dia deve ser maior ou igual a zero.")]
+    [Range(0.01, double.MaxValue, ErrorMessage = "O preço por dia deve ser maior ou igual a zero.")]
     public decimal PricePerDay { get; set; }
 
-    [Required]
-    public List<Destination> Destinations { get; set; }
-    
-    [Required]
-    public List<Reservation> Reservations { get; set; }
-    
-    public decimal TotalPrice => CalculateTotalPrice();
-    
-    public bool IsActive { get; set; } = true;
-    
-    private event Action<string> CapacityReached;
+    public List<Destination> Destinations { get; set; } = new List<Destination>();
+
+    public List<Reservation> Reservations { get; set; } = new List<Reservation>();
+
+    public event Action<string> CapacityReached;
     
     public TravelPackage() {  }
 
@@ -51,18 +45,20 @@ public class TravelPackage
             EndDate = endDate;
             CapacityLimit = capacityLimit;
             PricePerDay = pricePerDay;
-            Destinations = new List<Destination>();
+            Destinations ??= new List<Destination>();
+            Reservations ??= new List<Reservation>();
         }
     }
     
-    public void InvokeCapacityReach()
+    public void InvokeCapacityReached()
     {
         CapacityReached?.Invoke($"O pacote {Title} está lotado, capacidade máxima de {CapacityLimit} atingida");
     }
-    
-    private decimal CalculateTotalPrice()
+
+    public decimal CaculateTotalPrice()
     {
-        int duration = (EndDate - StartDate).Days + 1;
-        return duration * PricePerDay;
+        var totalDays = (int) (EndDate.Date - StartDate.Date).TotalDays + 1;
+
+        return PricePerDay * totalDays;
     }
 }
