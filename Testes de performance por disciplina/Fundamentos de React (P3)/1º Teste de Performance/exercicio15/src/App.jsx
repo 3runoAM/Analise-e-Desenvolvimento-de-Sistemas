@@ -1,0 +1,16 @@
+import './App.css'
+import {useState} from "react";
+
+export default function App() {
+    const [count, setCount] = useState(0)
+
+    return (
+        <>
+            <span>{count}</span>
+            <div className="buttons">
+                <button onClick={() => setCount(count - 1)}>➖</button>
+                <button onClick={() => setCount(count + 1)}>➕</button>
+            </div>
+        </>
+    )
+}

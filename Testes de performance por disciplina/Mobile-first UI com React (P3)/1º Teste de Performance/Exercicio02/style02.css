@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-direction: column-reverse;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    width: 50%;
+    height: 90%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    flex: 0 1 15%;
+    background-color: red;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}

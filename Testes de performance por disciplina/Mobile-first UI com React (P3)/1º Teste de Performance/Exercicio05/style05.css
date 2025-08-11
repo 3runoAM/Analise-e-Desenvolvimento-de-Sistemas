@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-direction: column-reverse;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    width: 50%;
+    height: 90%;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    flex: 1 1 auto;
+    background-color: red;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.item:nth-child(2) {
+    flex-basis: 200px;
+}

@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    width: 40%;
+    height: 30%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    flex: 0 1 20%;
+    background-color: red;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}

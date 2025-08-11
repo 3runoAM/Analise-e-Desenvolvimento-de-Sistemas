@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #2e2e2e;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
