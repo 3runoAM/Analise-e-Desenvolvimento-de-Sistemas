@@ -1,0 +1,11 @@
+@media(hover: none) {
+    p {
+        background: #44b600;
+    }
+}
+
+@media(hover: hover) {
+    p {
+        background: #003cff;
+    }
+}

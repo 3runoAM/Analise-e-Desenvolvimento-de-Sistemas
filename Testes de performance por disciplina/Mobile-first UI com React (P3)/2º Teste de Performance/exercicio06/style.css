@@ -1,0 +1,9 @@
+p {
+    color: #003cff;
+}
+
+@media (min-width: 801px) {
+    p {
+        color: #ff0000;
+    }
+}

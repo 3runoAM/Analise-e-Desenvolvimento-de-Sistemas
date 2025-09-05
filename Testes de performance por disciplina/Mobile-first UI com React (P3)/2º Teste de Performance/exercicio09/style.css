@@ -1,0 +1,10 @@
+button {
+    background-color: #cd0000;
+}
+
+
+@media (pointer: fine) {
+    button:hover {
+        background-color: #041caf;
+    }
+}

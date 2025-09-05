@@ -1,0 +1,23 @@
+body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: lightblue;
+}
+
+.item {
+    max-width: 20%;
+    max-height: 25%;
+}
