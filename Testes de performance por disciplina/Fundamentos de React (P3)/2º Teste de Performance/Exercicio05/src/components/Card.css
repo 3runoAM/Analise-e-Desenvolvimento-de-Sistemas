@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  height: 600px;
+  background-color: #a2dee2;
+  border-radius: 10px;
+  gap: 25px;
+}
+
+img {
+  max-width: 150px;
+  background-size: cover;
+}
+
+ul,
+p {
+  font-weight: bold;
+}

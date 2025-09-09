@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > * {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  width: 350px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

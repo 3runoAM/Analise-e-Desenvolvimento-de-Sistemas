@@ -1,0 +1,213 @@
+{
+  "quests": [
+    {
+      "id": "QT-001",
+      "title": "O Código Perdido de Andrômeda",
+      "type": "Hacker Espacial",
+      "difficulty": 5,
+      "description": "Infiltrar a rede da Estação Sigma para recuperar algoritmos quânticos roubados",
+      "reward": {
+        "credits": 4500,
+        "items": ["Drive de Dados Criptografado"],
+        "reputation": {
+          "Guilda dos Tecnomantes": "+20",
+          "Corporação Sirius": "-15"
+        }
+      },
+      "objectives": [
+        "Burlar os firewalls da estação",
+        "Localizar o núcleo de dados principal",
+        "Escapar antes do lockdown"
+      ],
+      "special": "Requier equipamento de interface neural"
+    },
+    {
+      "id": "QT-002",
+      "title": "Rebelião em Tau Ceti",
+      "type": "Combate/Militar",
+      "difficulty": 7,
+      "description": "Suprimir o levante dos androides mineradores na colônia TC-7",
+      "reward": {
+        "credits": 6800,
+        "items": ["Braço Biônico Militar"],
+        "reputation": {
+          "Consórcio Colonial": "+25",
+          "Liga dos Direitos Sintéticos": "-30"
+        }
+      },
+      "objectives": [
+        "Desativar os líderes rebeldes",
+        "Restaurar o controle da refinaria",
+        "Evitar danos colaterais"
+      ],
+      "special": "25% de chance de deserção da equipe"
+    },
+    {
+      "id": "QT-003",
+      "title": "A Flora Proibida de Xenon Prime",
+      "type": "Exploração Científica",
+      "difficulty": 4,
+      "description": "Coletar amostras de fungos bioluminescentes na Zona de Quarentena",
+      "reward": {
+        "credits": 3200,
+        "items": ["Traje de Biossegurança Nível 4"],
+        "reputation": {
+          "Academia Galáctica": "+15",
+          "Sindicato Médico": "+10"
+        }
+      },
+      "objectives": [
+        "Navegar pelo campo de asteroides contaminados",
+        "Coletar 3 amostras intactas",
+        "Descontaminar a nave antes do retorno"
+      ],
+      "special": "Risco de mutação aleatória"
+    },
+    {
+      "id": "QT-004",
+      "title": "O Sabotador Fantasma",
+      "type": "Mistério/Investigação",
+      "difficulty": 6,
+      "description": "Descobrir quem está destruindo os reatores de antimatéria na Frota Colonial",
+      "reward": {
+        "credits": 5500,
+        "items": ["Scanner de Mentiras Modificado"],
+        "reputation": {
+          "Aliança Terrana": "+20",
+          "Facção Separatista": "-25"
+        }
+      },
+      "objectives": [
+        "Interrogar 3 suspeitos-chave",
+        "Analisar padrões de sabotagem",
+        "Prender o culpado vivo"
+      ],
+      "special": "O sabotador pode ser um membro da equipe"
+    },
+    {
+      "id": "QT-005",
+      "title": "Resgate no Cinturão de Kessler",
+      "type": "Resgate Emergencial",
+      "difficulty": 8,
+      "description": "Salvar a tripulação da nave científica presa em um campo de destroços orbitais",
+      "reward": {
+        "credits": 7200,
+        "items": ["Medalha de Honra Espacial"],
+        "reputation": {
+          "Corporação Weyland-Yutani": "+30",
+          "Piratas do Cinturão": "-40"
+        }
+      },
+      "objectives": [
+        "Navegar pelo campo de destroços",
+        "Reparar os sistemas de vida da nave acidentada",
+        "Escapar sob fogo dos piratas"
+      ],
+      "special": "Limite de tempo real (30 minutos)"
+    },
+    {
+      "id": "QT-006",
+      "title": "O Segredo dos Precursores",
+      "type": "Arqueologia Xeno",
+      "difficulty": 9,
+      "description": "Investigar ruínas alienígenas descobertas em lua abandonada",
+      "reward": {
+        "credits": 10000,
+        "items": ["Artefato Precursor Desconhecido"],
+        "reputation": {
+          "Instituto de Xenoestudos": "+35",
+          "Igreja do Cosmos": "-20"
+        }
+      },
+      "objectives": [
+        "Decifrar inscrições alienígenas",
+        "Ativar o portal antigo",
+        "Sobreviver à ativação"
+      ],
+      "special": "Possibilidade de descoberta que muda o jogo"
+    },
+    {
+      "id": "QT-007",
+      "title": "Caçada ao Dragão de Ferro",
+      "type": "Caçada/Boss",
+      "difficulty": 10,
+      "description": "Destruir a nave-fera que está devorando estações de mineração",
+      "reward": {
+        "credits": 15000,
+        "items": ["Cérebro AI da Nave-Fera"],
+        "reputation": {
+          "Liga das Colônias Livres": "+50",
+          "Culto da Máquina": "-100"
+        }
+      },
+      "objectives": [
+        "Rastrear a nave-fera",
+        "Enfraquecer seus escudos",
+        "Disparar o torpedo de plasma no núcleo"
+      ],
+      "special": "Requier pelo menos 3 naves em equipe"
+    },
+    {
+      "id": "QT-008",
+      "title": "Contrabando na Nebulosa",
+      "type": "Espionagem/Infiltração",
+      "difficulty": 5,
+      "description": "Recuperar carga roubada sem alertar os guardas da estação pirata",
+      "reward": {
+        "credits": 6000,
+        "items": ["Camuflagem Ótica"],
+        "reputation": {
+          "Sindicato do Contrabando": "+15",
+          "Patrulha Espacial": "-10"
+        }
+      },
+      "objectives": [
+        "Disfarçar-se como mercador",
+        "Localizar os contêineres marcados",
+        "Sair sem levantar suspeitas"
+      ],
+      "special": "Se descoberto, missão vira combate"
+    },
+    {
+      "id": "QT-009",
+      "title": "O Motim do Event Horizon",
+      "type": "Terror Espacial",
+      "difficulty": 7,
+      "description": "Investigar o silêncio da nave de pesquisa que voltou do buraco negro",
+      "reward": {
+        "credits": 8000,
+        "items": ["Dados sobre Singularidade"],
+        "reputation": {
+          "Divisão de Parafenômenos": "+25",
+          "Consórcio Científico": "-15"
+        }
+      },
+      "objectives": [
+        "Entrar na nave abandonada",
+        "Recuperar os registros da ponte",
+        "Destruir a nave se necessário"
+      ],
+      "special": "Efeitos de insanidade progressivos"
+    },
+    {
+      "id": "QT-010",
+      "title": "A Profecia Cósmica",
+      "type": "Missão Épica",
+      "difficulty": 12,
+      "description": "Impedir que o Culto do Vazio ative o Artefato Celeste",
+      "reward": {
+        "credits": 25000,
+        "items": ["Chave Estelar"],
+        "reputation": {
+          "Todos as facções principais": "+50"
+        }
+      },
+      "objectives": [
+        "Reunir os 3 Fragmentos do Código",
+        "Penetrar no Templo do Vazio",
+        "Escolher: destruir ou controlar o Artefato"
+      ],
+      "special": "Decisão final afeta o fim do jogo"
+    }
+  ]
+}
