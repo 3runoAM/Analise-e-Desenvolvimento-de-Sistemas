@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "main"
+    "aside"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    min-height: 100dvh;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #B87979FF;
+}
+
+main {
+    grid-area: main;
+    background-color: #6691af;
+
+}
+
+aside {
+    grid-area: aside;
+    background-color: #bdd2a3;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: #f2e394;
+}
+
+#burguer-button {
+    position: relative;
+    z-index: 1;
+}
+
+nav > input {
+    position: absolute;
+    cursor: pointer;
+    width: inherit;
+    opacity: 0;
+    z-index: 2;
+}
+
+.line {
+    display: block;
+    margin-bottom: 4px;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
+
+ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+
+input:checked ~ #nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media (min-width: 769px) {
+    .container {
+        grid-template-areas:
+                "nav nav"
+                "main aside"
+                "footer footer";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    #burguer-button,
+    input:checked ~ #burguer-button {
+        display: none;
+    }
+
+    #nav-links,
+    input:checked ~ #nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+    }
+}
