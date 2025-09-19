@@ -1,6 +1,6 @@
 .researchCard {
-    max-width: 36rem;
-    max-height: 25rem;
+    width: 36rem;
+    max-height: 10rem;
 
     padding: 1rem;
     gap: 0.5em;
@@ -15,4 +15,9 @@
 .title {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.hiddenTextOverflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

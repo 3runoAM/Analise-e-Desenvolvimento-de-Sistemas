@@ -5,6 +5,9 @@
     align-items: center;
     overflow: auto;
     gap: 1rem;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 95%;
 }
 
 .flex-column {
@@ -41,4 +44,10 @@
 
 .largeGap {
     gap: 2rem;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px #989898;
 }

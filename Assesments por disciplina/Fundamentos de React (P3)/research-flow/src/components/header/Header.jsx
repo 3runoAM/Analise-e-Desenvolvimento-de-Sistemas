@@ -4,7 +4,7 @@ export default function Header() {
 
     return (
         <>
-            <h1 className={styles.title} >ResearchFlow - Sistema de Gestão de Projetos Acadêmicos</h1>
+            <h1 className={styles.title}>ResearchFlow - Sistema de Gestão de Projetos Acadêmicos</h1>
         </>
     )
 }

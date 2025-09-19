@@ -8,8 +8,8 @@ export default function ResearchCard({projectData}) {
         <div className={`${styles.researchCard} flex-column smallGap`}>
             <p className={`${styles.title}`}>{projectData.title} - {projectData.id}</p>
             <p>{`Projeto liderado por ${projectData.researcher} | ${projectData.status ? "Ativo" : "Inativo"} `}</p>
-            <p>{projectData.description}</p>
-            <p>{`Início ${projectData.startDate.toLocaleDateString()}`}</p>
+            <p className={`${styles.hiddenTextOverflow}`}>{projectData.description}</p>
+            <p>{`Início ${new Date(projectData.startDate).toLocaleDateString()}`}</p>
         </div>
     );
 }
