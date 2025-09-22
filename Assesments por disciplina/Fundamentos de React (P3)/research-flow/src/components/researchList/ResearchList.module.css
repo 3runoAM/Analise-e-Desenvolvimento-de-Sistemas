@@ -1,3 +1,7 @@
 .listContainer {
     padding: 0.8rem;
 }
+
+.pointer {
+    cursor: pointer;
+}

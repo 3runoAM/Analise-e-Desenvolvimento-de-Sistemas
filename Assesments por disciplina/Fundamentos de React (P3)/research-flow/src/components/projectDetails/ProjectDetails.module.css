@@ -1,0 +1,10 @@
+.star::before {
+    content: '★';
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

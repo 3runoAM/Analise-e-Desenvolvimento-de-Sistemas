@@ -5,6 +5,7 @@ export default function TeamMemberList({members, addNewMember}) {
         name: "",
         role: ""
     });
+    const [formVisibility, setFormVisibility] = useState(false);
 
     const handleNewMemberUpdate = (field, value) => {
         setNewMember({
@@ -20,8 +21,12 @@ export default function TeamMemberList({members, addNewMember}) {
         }
     }
 
+    function toggleFormVisibility() {
+        setFormVisibility(!formVisibility);
+    }
+
     return (
-        <section>
+        <section flex-column centered smallGap>
             <ul>
                 {
                     members.map((member) => (
@@ -32,11 +37,16 @@ export default function TeamMemberList({members, addNewMember}) {
                 }
             </ul>
 
-            <form className="flex-column smallGap">
+
+            <button onClick={toggleFormVisibility}>
+                {formVisibility ? "Esconder" : "Mostrar"} formulário
+            </button>
+            {formVisibility && <form className="flex-column centered smallGap">
                 <div className="flex-column smallGap">
                     <label>Nome</label>
                     <input
                         type="text"
+                        required
                         value={newMember.name}
                         onChange={e => handleNewMemberUpdate("name", e.target.value)}
                     />
@@ -45,14 +55,14 @@ export default function TeamMemberList({members, addNewMember}) {
                     <label>Função</label>
                     <input
                         type="text"
+                        required
                         value={newMember.role}
                         onChange={e => handleNewMemberUpdate("role", e.target.value)}
                     />
                 </div>
 
                 <button type="button" onClick={handleNewMemberSubmit}>Adicionar Membro</button>
-            </form>
-
+            </form>}
         </section>
     );
 }

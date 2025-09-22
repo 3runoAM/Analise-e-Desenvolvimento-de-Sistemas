@@ -11,8 +11,6 @@ export default function ProjectForm({handleSubmit}) {
     });
 
     function updateProjectField(field, value) {
-        if (value.length <= 0) return;
-
         setProject({
             ...project,
             [field]: value
@@ -22,10 +20,10 @@ export default function ProjectForm({handleSubmit}) {
     return (
         <form className="flex-column smallGap">
             <div className="flex-column smallGap">
-
                 <div className="flex-column smallGap">
                     <label htmlFor="id">ID do Projeto:</label>
                     <input id="id"
+                           required
                            type="text"
                            value={project.id}
                            onChange={(e) => (updateProjectField("id", e.target.value))}/>
@@ -34,6 +32,7 @@ export default function ProjectForm({handleSubmit}) {
                 <div className="flex-column smallGap">
                     <label htmlFor="title">Título do Projeto:</label>
                     <input id="title"
+                           required
                            type="text"
                            value={project.title}
                            onChange={(e) => (updateProjectField("title", e.target.value))}/>
@@ -42,6 +41,7 @@ export default function ProjectForm({handleSubmit}) {
                 <div className="flex-column smallGap">
                     <label htmlFor="researcher">Pesquisador:</label>
                     <input id="researcher"
+                           required
                            type="text"
                            value={project.researcher}
                            onChange={(e) => (updateProjectField("researcher", e.target.value))}/>
@@ -50,6 +50,7 @@ export default function ProjectForm({handleSubmit}) {
                 <div className="flex-column smallGap">
                     <label htmlFor="status">Status:</label>
                     <select id="status"
+                            required
                             value={project.status}
                             onChange={(e) => (updateProjectField("status", e.target.value))}>
                         <option value="true">Ativo</option>
@@ -60,6 +61,7 @@ export default function ProjectForm({handleSubmit}) {
                 <div className="flex-column smallGap">
                     <label htmlFor="startDate">Data de Início:</label>
                     <input id="startDate"
+                           required
                            type="date"
                            value={project.startDate.toISOString().split('T')[0]}
                            onChange={(e) => (updateProjectField("startDate", new Date(e.target.value)))}/>
@@ -68,12 +70,12 @@ export default function ProjectForm({handleSubmit}) {
                 <div className="flex-column smallGap">
                     <label htmlFor="description">Descrição:</label>
                     <textarea id="description"
+                              required
                               maxLength={500}
                               value={project.description}
                               onChange={(e) => (updateProjectField("description", e.target.value))}></textarea>
                 </div>
             </div>
-
 
             <button className="button" type="button" onClick={() => handleSubmit(project)}>Salvar</button>
         </form>
