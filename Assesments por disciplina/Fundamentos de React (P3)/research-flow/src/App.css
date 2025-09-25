@@ -29,10 +29,6 @@
     flex-wrap: wrap;
 }
 
-.spaceBetween {
-    justify-content: space-between;
-}
-
 .listStyleNone {
     list-style: none;
     padding: 0;
@@ -52,6 +48,6 @@
 
 button {
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 0.5rem;
     box-shadow: 0 4px 8px #989898;
 }

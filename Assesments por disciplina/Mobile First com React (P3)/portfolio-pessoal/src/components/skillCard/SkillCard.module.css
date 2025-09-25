@@ -1,0 +1,72 @@
+.skillCard {
+    gap: 0.5rem;
+    padding: 1rem;
+    flex: 1 1 31%;
+}
+
+.skillCard p:first-of-type {
+    font-size: 0.75rem;
+}
+
+.skillContainer {
+    box-sizing: border-box;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+.skillCard p:first-of-type {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.skillCard p:last-of-type {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+@media (min-width: 640px) {
+    .skillCard {
+        flex: 1 1 21%;
+    }
+
+    .skillContainer {
+        gap: 0.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .skillCard {
+        flex: 1 1 11%;
+    }
+
+    .skillCard p:first-of-type {
+        font-size: 0.8rem;
+    }
+
+    .skillCard p:first-of-type {
+        font-size: 2.2rem;
+    }
+
+    .skillCard p:last-of-type {
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .skillCard {
+        flex: 1 1 8%;
+    }
+
+    .skillCard p:first-of-type {
+        font-size: 2.8rem;
+    }
+
+    .skillCard p:last-of-type {
+        font-size: 1.4rem;
+    }
+
+    .skillContainer {
+        gap: 0.5rem;
+    }
+}
