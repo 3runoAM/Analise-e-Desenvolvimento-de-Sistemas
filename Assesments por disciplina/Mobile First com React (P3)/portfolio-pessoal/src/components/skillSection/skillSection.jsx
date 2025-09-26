@@ -1,5 +1,6 @@
 import styles from './skillSection.module.css';
-import SkillCard from '../skillCard/skillCard';
+import SkillCard from "../skillCard/SkillCard";
+
 
 export default function SkillSection({ skillsData }) {
     return (
