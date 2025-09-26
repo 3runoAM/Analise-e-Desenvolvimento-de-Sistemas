@@ -1,9 +1,9 @@
 import styles from './header.module.css';
 
-export default function Header() {
+export default function Header({headerData}) {
     return (
         <>
-            <h1 className={styles.title}>ASSESSMENTS DA DISCIPLINA DE MOBILE FIRST</h1>
+            <h1 className={styles.title}>{headerData.title}</h1>
         </>
     );
 }

@@ -1,0 +1,60 @@
+.projectSection{
+    gap: 0.6rem;
+}
+
+.projectSection * {
+    box-sizing: border-box;
+}
+
+.projectSection h2 {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
+/* BREAKPOINT 1: 640PX */
+@media (min-width: 640px) {
+    .projectSection h2 {
+        font-size: .95rem;
+    }
+
+    .button {
+        font-size: 1rem;
+        max-width: 25%;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media (min-width: 768px) {
+    .projectSection{
+        gap: 0.8rem;
+        max-width: 90%;
+    }
+
+    .projectSection h2 {
+        font-size: 1rem;
+    }
+}
+
+/* BREAKPOINT 3 */
+@media (min-width: 1024px) {
+    .projectSection{
+        max-width: 85%;
+    }
+
+    .projectSection h2 {
+        font-size: 1.1rem;
+    }
+
+}
+
+/* BREAKPOINT 4 */
+@media (min-width: 1280px) {
+    .projectSection{
+        gap: 0.8rem;
+        max-width: 62.4rem;
+    }
+    .projectSection h2 {
+        font-size: 1.2rem;
+    }
+}

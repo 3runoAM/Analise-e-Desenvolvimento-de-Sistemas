@@ -91,7 +91,8 @@
 /* BREAKPOINT 4 */
 @media (min-width: 1280px) {
     .profileCard {
-        max-width: 65%;
+        max-width: 50rem;
+
         gap: 1.5rem;
     }
 

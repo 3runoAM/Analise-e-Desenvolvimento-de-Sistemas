@@ -3,7 +3,7 @@ import styles from './SkillCard.module.css';
 export default function SkillCard({skillData}) {
     return (
         <div className={`${styles.skillCard} flex-column flex-center smallGap`}>
-            <p>{skillData.name}</p>
+            <p>{skillData.title}</p>
 
             <div className={`${styles.skillContainer} flex-row flex-wrap flex-center`}>
                <p>{skillData.grade}</p>

@@ -4,7 +4,7 @@
 }
 
 .skillSection h2 {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
@@ -65,6 +65,7 @@
     .skillSection {
         gap: 1.1rem;
         width: 80%;
+        max-width: 62.4rem;
     }
 
     .skillSection h2 {
