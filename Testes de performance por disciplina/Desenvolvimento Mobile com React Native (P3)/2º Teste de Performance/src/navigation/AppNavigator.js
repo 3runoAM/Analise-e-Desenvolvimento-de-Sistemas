@@ -10,7 +10,7 @@ export default function AppNavigator() {
   return (
     <View style={styles.container}>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="gameList">
+        <Stack.Navigator initialRouteName="gameList" id="AppStack">
           <Stack.Screen name="gameList"
                         component={ GameList }
                         options={{title: "Lista de jogos"}} />
