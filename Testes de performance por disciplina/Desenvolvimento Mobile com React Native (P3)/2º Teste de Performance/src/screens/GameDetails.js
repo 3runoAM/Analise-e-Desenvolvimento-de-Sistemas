@@ -25,12 +25,12 @@ export default function GameDetails({ route }) {
         </View>
 
         <View style={styles.flexRow}>
-          <Text style={styles.bold}>desenvolvedora: </Text>
+          <Text style={styles.bold}>Desenvolvedora: </Text>
           <Text>{item.desenvolvedora}</Text>
         </View>
 
         <View style={styles.flexRow}>
-          <Text style={styles.bold}>classificação: </Text>
+          <Text style={styles.bold}>Classificação: </Text>
           <Text>{item.classificacao}</Text>
         </View>
 
