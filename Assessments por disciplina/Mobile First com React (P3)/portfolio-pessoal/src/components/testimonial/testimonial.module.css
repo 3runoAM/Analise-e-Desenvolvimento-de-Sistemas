@@ -1,0 +1,85 @@
+.testimonial {
+    gap: 0.6rem
+}
+
+.testimonial h2 {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.testimonial p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 2rem;
+    background-image: radial-gradient(50% 50% at 50% 50%, #FFFFFF93 0%, #FFFFFF5B 100%);
+    border-radius: 4rem;
+    border: 2px solid #ffffff;
+}
+
+
+/* DARK MODE*/
+@media (prefers-color-scheme: dark) {
+    .testimonial p {
+        background-image: radial-gradient(50% 50% at 50% 50%, #000519 0, #0000009e 100%);
+        border: 2px solid #0016659E;
+    }
+}
+
+/* BREAKPOINT 1: 640PX */
+@media (min-width: 640px) {
+    .testimonial h2 {
+        font-size: 0.95rem;
+    }
+
+    .testimonial p {
+        font-size: 1rem;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media (min-width: 768px) {
+    .testimonial {
+        gap: 0.8rem;
+        width: 90%;
+    }
+
+    .testimonial h2 {
+        font-size: 1rem;
+    }
+}
+
+/* BREAKPOINT 3 */
+@media (min-width: 1024px) {
+    .testimonial {
+        gap: 1rem;
+        width: 85%;
+    }
+
+    .testimonial h2 {
+        font-size: 1.1rem;
+    }
+
+    .testimonial p {
+        font-size: 1.1rem;
+    }
+}
+
+/* BREAKPOINT 4 */
+@media (min-width: 1280px) {
+    .testimonial {
+        gap: 1rem;
+        width: 80%;
+        max-width: 62.4rem;
+    }
+
+    .testimonial h2 {
+        font-size: 1.2rem;
+    }
+
+    .testimonial p {
+        font-size: 1.2rem;
+    }
+}

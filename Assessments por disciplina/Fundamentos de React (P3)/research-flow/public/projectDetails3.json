@@ -1,0 +1,5 @@
+{
+  "id": "3",
+  "title": "Pokédex interativa",
+  "technologies": ["React", "CSS modules", "PokéAPI"]
+}

@@ -1,0 +1,72 @@
+﻿@page
+@model AssessmentApp.Pages.TravelPackages.CreateTravelPackageModel
+
+@{
+    ViewData["title"] = "Criar novo Pacote Turístico";
+}
+
+<h1>@ViewData["title"]</h1>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <span class="text-danger">*</span>
+        <label asp-for="TravelPackage.Title" class="control-label">Nome do pacote</label>
+        <input asp-for="TravelPackage.Title" class="form-control" />
+        <span asp-validation-for="TravelPackage.Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <span class="text-danger">*</span>
+        <label asp-for="TravelPackage.StartDate" class="control-label">Data de ida</label>
+        <input asp-for="TravelPackage.StartDate" class="form-control" type="date" />
+        <span asp-validation-for="TravelPackage.StartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <span class="text-danger">*</span>
+        <label asp-for="TravelPackage.EndDate" class="control-label">Data de volta</label>
+        <input asp-for="TravelPackage.EndDate" class="form-control" type="date" />
+        <span asp-validation-for="TravelPackage.EndDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <span class="text-danger">*</span>
+        <label asp-for="TravelPackage.CapacityLimit" class="control-label">Vagas totais</label>
+        <input asp-for="TravelPackage.CapacityLimit" class="form-control" />
+        <span asp-validation-for="TravelPackage.CapacityLimit" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <span class="text-danger">*</span>
+        <label asp-for="TravelPackage.PricePerDay" class="control-label">Preço da diária</label>
+        <input asp-for="TravelPackage.PricePerDay" type="number" step="0.01" min="0" class="form-control" placeholder="0,00" />
+        <span asp-validation-for="TravelPackage.PricePerDay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Selecione os destinos:</label>
+
+
+        @if(Model.AvailableDestinations.Count > 0)
+        {
+          @for (int i = 0; i < Model.AvailableDestinations.Count; i++)
+          {
+            <div class="form-check">
+                <input type="checkbox"
+                       name="SelectedDestinations"
+                       value="@Model.AvailableDestinations[i].Id"
+                       class="form-check-input"
+                       id="destino_@i" />
+                <label class="form-check-label" for="destino_@i">
+					@Model.AvailableDestinations[i].Name | @Model.AvailableDestinations[i].CountryName
+                </label>
+            </div>
+          }
+        }
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,115 @@
+/*LAYOUT BASE  420PX*/
+.profileCard {
+    width: 100%;
+    box-sizing: border-box;
+    background-image: radial-gradient(50% 50% at 50% 50%, #FFFFFF93 0%, #FFFFFF5B 100%);
+    border-radius: 4rem;
+    border: 2px solid #ffffff;
+}
+
+
+.profileCard img {
+    width: 100%;
+    max-width: 5.7rem;
+}
+
+.infoContainer p:first-child {
+    font-weight: bold;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.infoContainer p:nth-of-type(2) {
+    font-weight: normal;
+    font-size: 0.875rem;
+}
+
+/*DARK MODE*/
+@media (prefers-color-scheme: dark) {
+    .profileCard {
+        background-image: radial-gradient(50% 50% at 50% 50%, #000519FF 0%, #0000009E 100%);
+        border: 2px solid #001665FF;
+    }
+}
+
+/* BREAKPOINT 1: 640PX */
+@media (min-width: 640px) {
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 70%;
+    }
+
+    .profileCard img {
+        max-width: 6rem;
+    }
+
+    .infoContainer p:first-child {
+        font-size: 1.2rem;
+    }
+
+    .infoContainer p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+}
+
+/* BREAKPOINT 2 */
+@media (min-width: 768px) {
+    .profileCard {
+        max-width: 80%;
+        flex-direction: column;
+        gap: 1.1rem;
+    }
+
+    .infoContainer {
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+/* BREAKPOINT 3 */
+@media (min-width: 1024px) {
+    .profileCard {
+        max-width: 70%;
+        gap: 1.3rem;
+    }
+
+    .infoContainer p:first-child {
+        font-size: 1.5rem;
+    }
+
+    .infoContainer {
+        gap: 1.2rem;
+    }
+
+    .infoContainer p:nth-of-type(2) {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* BREAKPOINT 4 */
+@media (min-width: 1280px) {
+    .profileCard {
+        max-width: 50rem;
+
+        gap: 1.5rem;
+    }
+
+    .profileCard img {
+        max-width: 8rem;
+    }
+
+    .infoContainer {
+        gap: 1.4rem;
+    }
+
+    .infoContainer p:first-child {
+        font-size: 1.7rem;
+    }
+
+    .infoContainer p:nth-of-type(2) {
+        font-size: 1.4rem;
+    }
+}
+

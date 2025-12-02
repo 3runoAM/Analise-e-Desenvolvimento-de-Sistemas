@@ -1,0 +1,15 @@
+#botoes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,16 @@
+/*LAYOUT BASE  420PX*/
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+
+    text-shadow: #3939393F 0 5px 5px;
+}
+
+/*DARK MODE*/
+@media (prefers-color-scheme: dark) {
+    .title {
+        text-shadow: #acacac3f 0 5px 5px;
+    }
+}

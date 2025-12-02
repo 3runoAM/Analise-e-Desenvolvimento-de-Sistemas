@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\C#\\Assessment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|d:\\workspace\\c#\\assessment\\exercicio12\\exercicio12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|solutionrelative:exercicio12\\exercicio12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|d:\\workspace\\c#\\assessment\\exercicio12\\tableformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|solutionrelative:exercicio12\\tableformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|d:\\workspace\\c#\\assessment\\exercicio12\\rawtextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|solutionrelative:exercicio12\\rawtextformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|d:\\workspace\\c#\\assessment\\exercicio12\\markdownformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|solutionrelative:exercicio12\\markdownformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|d:\\workspace\\c#\\assessment\\exercicio12\\contactformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E876C54-916D-4FAF-914A-AE73762C3F6F}|Assessment.csproj|solutionrelative:exercicio12\\contactformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercicio12.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\Exercicio12.cs",
+              "RelativeDocumentMoniker": "Exercicio12\\Exercicio12.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\Exercicio12.cs",
+              "RelativeToolTip": "Exercicio12\\Exercicio12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:07:59.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TableFormatter.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\TableFormatter.cs",
+              "RelativeDocumentMoniker": "Exercicio12\\TableFormatter.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\TableFormatter.cs",
+              "RelativeToolTip": "Exercicio12\\TableFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:10:40.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RawTextFormatter.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\RawTextFormatter.cs",
+              "RelativeDocumentMoniker": "Exercicio12\\RawTextFormatter.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\RawTextFormatter.cs",
+              "RelativeToolTip": "Exercicio12\\RawTextFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:09:35.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarkdownFormatter.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\MarkdownFormatter.cs",
+              "RelativeDocumentMoniker": "Exercicio12\\MarkdownFormatter.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\MarkdownFormatter.cs",
+              "RelativeToolTip": "Exercicio12\\MarkdownFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:10:38.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactFormatter.cs",
+              "DocumentMoniker": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\ContactFormatter.cs",
+              "RelativeDocumentMoniker": "Exercicio12\\ContactFormatter.cs",
+              "ToolTip": "D:\\Workspace\\C#\\Assessment\\Exercicio12\\ContactFormatter.cs",
+              "RelativeToolTip": "Exercicio12\\ContactFormatter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T19:10:38.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

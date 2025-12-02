@@ -1,0 +1,12 @@
+| Produto 1: Xícara
+| Preço unitário: 15,99
+| Quantidade: 4
+
+| Produto 2: Cadeira
+| Preço unitário: 200,00
+| Quantidade: 4
+
+| Produto 3: Prato
+| Preço unitário: 10,50
+| Quantidade: 4
+

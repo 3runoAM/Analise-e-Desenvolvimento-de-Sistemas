@@ -1,0 +1,61 @@
+﻿@page
+@model AssessmentApp.Pages.Reservations.CreateReservationModel
+@{
+    ViewData["Title"] = "Solicitar Reserva";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Confirmação de Reserva</h4>
+        <hr />
+        
+        @if (Model.TravelPackage != null)
+        {
+            <dl class="row">
+                <dt class="col-sm-4">Pacote:</dt>
+                <dd class="col-sm-8">@Model.TravelPackage.Title</dd>
+                
+                <dt class="col-sm-4">Data de Ida:</dt>
+                <dd class="col-sm-8">@Model.TravelPackage.StartDate.ToString("dd/MM/yyyy")</dd>
+                
+                <dt class="col-sm-4">Data de Volta:</dt>
+                <dd class="col-sm-8">@Model.TravelPackage.EndDate.ToString("dd/MM/yyyy")</dd>
+                
+                <dt class="col-sm-4">Preço Total:</dt>
+                <dd class="col-sm-8">@Model.TravelPackage.CaculateTotalPrice().ToString("C")</dd>
+            </dl>
+            
+            <form method="post">
+                <input type="hidden" asp-for="PackageId" />
+                
+                <div class="form-group">
+                    <label asp-for="ClientName">Nome completo</label>
+                    <input asp-for="ClientName" class="form-control" />
+                    <span asp-validation-for="ClientName" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="ClientEmail">Email</label>
+                    <input asp-for="ClientEmail" class="form-control" type="email" />
+                    <span asp-validation-for="ClientEmail" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-primary">Confirmar Reserva</button>
+                    <a asp-page="/TravelPackages/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        }
+        else
+        {
+            <div class="alert alert-warning">Pacote não encontrado ou não disponível.</div>
+            <a asp-page="/TravelPackages/Index" class="btn btn-primary">Voltar para pacotes</a>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
